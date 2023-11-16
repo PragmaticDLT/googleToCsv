@@ -1,0 +1,2265 @@
+{
+"search_metadata":
+{
+"id":
+"655561b05b54efdcf1cf685e",
+"status":
+"Success",
+"json_endpoint":
+"https://serpapi.com/searches/24c9b0a30a64b601/655561b05b54efdcf1cf685e.json",
+"created_at":
+"2023-11-16 00:26:24 UTC",
+"processed_at":
+"2023-11-16 00:26:24 UTC",
+"duckduckgo_url":
+"https://duckduckgo.com/?q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&kl=us-en",
+"raw_html_file":
+"https://serpapi.com/searches/24c9b0a30a64b601/655561b05b54efdcf1cf685e.html",
+"prettify_html_file":
+"https://serpapi.com/searches/24c9b0a30a64b601/655561b05b54efdcf1cf685e.prettify",
+"total_time_taken":
+1.08
+},
+"search_parameters":
+{
+"engine":
+"duckduckgo",
+"q":
+"inurl:"servicedesk/customer/portals"",
+"kl":
+"us-en",
+"start":
+892
+},
+"search_information":
+{
+"organic_results_state":
+"Results for exact spelling"
+},
+"organic_results":
+[
+{
+"position":
+1,
+"title":
+"INFN Identity Check - Istituto Nazionale di Fisica Nucleare",
+"link":
+"https://servicedesk.infn.it/servicedesk/customer/portals",
+"snippet":
+"NON AGGIUNGERE QUESTA PAGINA AI PREFERITI! Dopo il login verrai rediretto a . https://servicedesk.infn.it/plugins/servlet/samlconsumer",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/servicedesk.infn.it.ico"
+},
+{
+"position":
+2,
+"title":
+"How to access the Customer Service Portal | JTC",
+"link":
+"https://www.jtc.gov.sg/get-help/about-the-customer-service-portal/how-to-access-the-customer-service-portal",
+"snippet":
+"If you have not used the customer service portal previously, do check that your company has set up and assign digital service access in Corppass for your use.. What you would need. Please note that from 11 April 2021, you will be required to login to government digital services for businesses (G2B) using Singpass instead of Corppass.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.jtc.gov.sg.ico"
+},
+{
+"position":
+3,
+"title":
+"SSO not working | ServiceDesk Plus single sign on problems ...",
+"link":
+"https://www.manageengine.com/products/service-desk/troubleshooting/servicedesk-plus-sso-pass-through-authentication-issues.html",
+"snippet":
+"SSO issues Explanation about NtlmV2 Implementation in ServiceDesk Plus :-NTLMV2 is a protocol supported by Microsoft in order to overcome the security issues of NTLMV1 and the same is implemented in ServiceDesk Plus.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.manageengine.com.ico"
+},
+{
+"position":
+4,
+"title":
+"Support Services | OHSU",
+"link":
+"https://www.ohsu.edu/about/support-services",
+"snippet":
+"Phone: 800-775-5460, press 8 or 503-494-8243 Fax: 503-494-5120 Mailing address: OHSU — Cashier's Office L002 3181 S.W. Sam Jackson Park Road Mail code: L002 Portland, OR 97239",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.ohsu.edu.ico"
+},
+{
+"position":
+5,
+"title":
+"Frontline Insurance: Home and Commercial Property Insurance",
+"link":
+"https://www.frontlineinsurance.com/",
+"snippet":
+"Download our app for iOS Opens App Store link in new window and Android Opens Google Play link in new window to access policy documents or file a claim. Remember to document all damages with photos and videos. Hurricane Claims Call Center: (877) 744-5224.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.frontlineinsurance.com.ico"
+},
+{
+"position":
+6,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://infoprojects.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"6d72e1ae1f86881bae1eab16783af1a2cde0ff8a_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/21f42273-a155-4f3a-9ac6 ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/infoprojects.atlassian.net.ico"
+},
+{
+"position":
+7,
+"title":
+"Get Jira Service Management for Free | Atlassian",
+"link":
+"https://www.atlassian.com/software/jira/service-management/free",
+"snippet":
+"Jira Service Management+Knowledge Base. Turn your service desk. into a self-service. delight by adding. Confluence. Choose two. Jira Service Management. Confluence. Get Jira Service Management for free to give your customers an easy way to ask for help and your agents a fast way to resolve incidents.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.atlassian.com.ico"
+},
+{
+"position":
+8,
+"title":
+"Helpdesk portal | IT service portal | IT self service | Self help ...",
+"link":
+"https://www.manageengine.com/products/service-desk/self-service/",
+"snippet":
+"The concept of self-service has never made more sense in the ITSM industry than right now. The combination of digital transformation bringing new technology to service desks, and the increased tech-savviness of end users, presents a unique opportunity to create more capable self-service systems. This is a good time to take advantage of self-service to make your organization's service desk ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.manageengine.com.ico"
+},
+{
+"position":
+9,
+"title":
+"Service Management - UNI",
+"link":
+"https://uniconnect.uni.com/servicedesk/servicedesk/customer/portals",
+"snippet":
+"{"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-management?utm_medium=jira-in-product&utm_source=jira_service_desk_portal_footer&utm ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/uniconnect.uni.com.ico"
+},
+{
+"position":
+10,
+"title":
+"Jira Service Management - ins-pi.atlassian.net",
+"link":
+"https://ins-pi.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"ca75d9d469fa2b9532a264e3a885e807f005b95f_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/4359bfab-9eb5-4716-bfa0 ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/ins-pi.atlassian.net.ico"
+},
+{
+"position":
+11,
+"title":
+"Loading...",
+"link":
+"https://servicedesk.oakland.k12.mi.us/",
+"snippet":
+"Oakland ISD District Staff. Oakland Schools and District Staff login with their email address and password. Password Resets: Self-Service Password Reset. Call 248.209.2060 or email to servicedesk@oakland.k12.mi.us with a contact phone number if you continue to have issues.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/servicedesk.oakland.k12.mi.us.ico"
+},
+{
+"position":
+12,
+"title":
+"CMS Enterprise Portal",
+"link":
+"https://portalval.cms.gov/",
+"snippet":
+"The Enterprise Portal is a gateway that provides access to over 50 different Centers for Medicare & Medicaid Services ( CMS) healthcare-based applications. It provides the ability to request access to multiple Portal-integrated CMS applications and to launch/access those applications. Learn more about Enterprise Portal.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/portalval.cms.gov.ico"
+},
+{
+"position":
+13,
+"title":
+"Jira Service Management - axedras.atlassian.net",
+"link":
+"https://axedras.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"3c8d5db805dbf024a727d0e521c01890c9f4ed65_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/de9d2881-ca13-42f4-a6a3 ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/axedras.atlassian.net.ico"
+},
+{
+"position":
+14,
+"title":
+"MedData Services | Patient Assistance Software | Prescription ...",
+"link":
+"https://meddataservices.com/",
+"snippet":
+"The Expert in Prescription Assistance & Drug Recovery. Since its inception in 1999, MedData Services has become the most widely-used subscription-based Prescription Assistance Program and is heralded as the most efficient, user-friendly program available.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/meddataservices.com.ico"
+},
+{
+"position":
+15,
+"title":
+"GLS Belgium Service Center - Jira Service Management",
+"link":
+"https://mygls.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"2b0210f34afc0653a0d852b0b168af108f3a5213_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/84bd6f63-f7ae-43b1-8415 ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/mygls.atlassian.net.ico"
+},
+{
+"position":
+16,
+"title":
+"Welcome to our download portal",
+"link":
+"https://www.ultesttools.com/",
+"snippet":
+"Welcome to our download portal. Through this portal, you can download the latest software releases and manuals for UL Solutions Test Tools. For questions or login ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.ultesttools.com.ico"
+},
+{
+"position":
+17,
+"title":
+"Solutions - Jira Service Management",
+"link":
+"https://smartguess.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"c583e8bd1ae468a838eb5bf99431ffb261c6e569_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/406432ac-780b-4003-ae85 ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/smartguess.atlassian.net.ico"
+},
+{
+"position":
+18,
+"title":
+"CAIS - Login",
+"link":
+"https://members.caisgroup.com/",
+"snippet":
+"We would like to show you a description here but the site won't allow us.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/members.caisgroup.com.ico"
+},
+{
+"position":
+19,
+"title":
+"Cisco Worldwide Support Contacts - Cisco",
+"link":
+"https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
+"snippet":
+"Cisco Worldwide Contacts. Asia-Pacific +61 2 8446 7411. Australia. 1 800 805 227. Bangladesh. 00 0800 061 039 (applicable for cell phones only)",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.cisco.com.ico"
+},
+{
+"position":
+20,
+"title":
+"Help Desk IT Service Desk Software",
+"link":
+"https://www.helpdesk.com/",
+"snippet":
+"How does a help desk work? A help desk system deals with support requests or emails (called tickets) from users. When users have specialized issues or need help, they send a support request through different channels like email, phone, or an online form on a website. The help desk team or software then sorts and prioritizes the tickets based on the nature and seriousness of the issue.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.helpdesk.com.ico"
+},
+{
+"position":
+21,
+"title":
+"Software de mesa de ayuda y servicio de TI - ManageEngine",
+"link":
+"https://www.manageengine.com/latam/service-desk/",
+"snippet":
+"Organice flujos de trabajo empresariales y de TI integrados para ofrecer las experiencias de servicio deseadas. ServiceDesk Plus es una solución de gestión de servicios que combina la gestión de servicios de TI, la gestión de activos de TI y la CMDB con funciones de gestión de servicios empresariales para departamentos como RRHH, instalaciones y finanzas.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.manageengine.com.ico"
+},
+{
+"position":
+22,
+"title":
+"HPE InfoSight | Hewlett Packard Enterprise",
+"link":
+"https://infosight.hpe.com/",
+"snippet":
+"© 2014-2020 Hewlett Packard Enterprise Company, L.P.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/infosight.hpe.com.ico"
+},
+{
+"position":
+23,
+"title":
+"CMS Enterprise Portal",
+"link":
+"https://portal.cms.gov/portal/",
+"snippet":
+"Enterprise Portal. The Enterprise Portal is a gateway that provides access to over 50 different Centers for Medicare & Medicaid Services ( CMS) healthcare-based applications. It provides the ability to request access to multiple Portal-integrated CMS applications and to launch/access those applications. Learn more about Enterprise Portal.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/portal.cms.gov.ico"
+},
+{
+"position":
+24,
+"title":
+"Log into Atlassian - Dell CPG JIRA",
+"link":
+"https://jira.cpg.dell.com/",
+"snippet":
+"Dell Production Jira server - jira.cpg.dell.com. (Knowledge Base) (Password Reset for External Non-Dell Users ONLY) (Service Calendar) (Service Desk) (Supported Browsers)",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/jira.cpg.dell.com.ico"
+},
+{
+"position":
+25,
+"title":
+"socom.sharepoint-mil.us",
+"link":
+"https://socom.sharepoint-mil.us/",
+"snippet":
+"We would like to show you a description here but the site won't allow us.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/socom.sharepoint-mil.us.ico"
+},
+{
+"position":
+26,
+"title":
+"ServiceDesk Plus administration guide - SDP help desk guide",
+"link":
+"http://help.servicedeskplus.com/",
+"snippet":
+"Get started with the help desk admin guide, which provides you with every information that you need to know about the install, set up, upgrade and request module functions available in ServiceDesk Plus, a help desk software with integrated asset and project management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/help.servicedeskplus.com.ico"
+},
+{
+"position":
+27,
+"title":
+"Jira Service Management - devopssystems.atlassian.net",
+"link":
+"https://devopssystems.atlassian.net/servicedesk/customer/portals.",
+"snippet":
+"{"xsrfToken":"48441484b92710641ab0dc37dbd541ffb6c4c5c0_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/c1c421b8-e846-496e-a1ae ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/devopssystems.atlassian.net.ico"
+},
+{
+"position":
+28,
+"title":
+"Atlassian Developer",
+"link":
+"https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
+"snippet":
+"Atlassian Developer",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/developer.atlassian.com.ico"
+},
+{
+"position":
+29,
+"title":
+"Radius | Fleet Mobility and Connectivity Solutions",
+"link":
+"https://www.radius.com/",
+"snippet":
+"Solutions for businesses of all sizes. Our tailored solutions allow you to benefit from a one-stop shop that can help keep your business on the go and connected. We offer fuel cards, telematics, vehicle leasing, EV charge points, telecoms and more to businesses globally. Established in 1990, we're trusted by over 400,000 businesses all over the ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.radius.com.ico"
+},
+{
+"position":
+30,
+"title":
+"Service Management - Telstra Health",
+"link":
+"https://jira.telstrahealth.com/servicedesk/customer/portals",
+"snippet":
+"Keep me logged in. Forgot your password? Sign up for an account. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/jira.telstrahealth.com.ico"
+},
+{
+"position":
+31,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://hhaxsupport.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/hhaxsupport.atlassian.net.ico"
+},
+{
+"position":
+32,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://alliedsolutions.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/alliedsolutions.atlassian.net.ico"
+},
+{
+"position":
+33,
+"title":
+"Jira Service Management - support-tech.atlassian.net",
+"link":
+"https://support-tech.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/support-tech.atlassian.net.ico"
+},
+{
+"position":
+34,
+"title":
+"Jira Service Management",
+"link":
+"https://usaintlouis.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"eb54da0903f6e425100eda01b26c49fe783f61a6_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/258095dc-959e-481d-887a ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/usaintlouis.atlassian.net.ico"
+},
+{
+"position":
+35,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://artel.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/artel.atlassian.net.ico"
+},
+{
+"position":
+36,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://newmgtservices.atlassian.net/servicedesk/customer/user/login?destination=portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/newmgtservices.atlassian.net.ico"
+},
+{
+"position":
+37,
+"title":
+"Service Desk - Iress",
+"link":
+"https://jira.iress.com/servicedesk/customer/portals",
+"snippet":
+"{"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service_desk_portal_footer ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/jira.iress.com.ico"
+},
+{
+"position":
+38,
+"title":
+"华润电力门户官网-欢迎您",
+"link":
+"https://www.cr-power.com/",
+"snippet":
+"华润电力华东大区10企业集中进行碳排放配额清缴履约. 华润电力全力以赴保障电力热力稳定供应. 可再生能源占比大幅提升，华润电力计划2025年碳达峰. 投资25亿!. 华润电力在广东清远建设500MW渔光互补光伏电站. 股票信息 电子商务 润电人 华润学习与创新中心 ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.cr-power.com.ico"
+},
+{
+"position":
+39,
+"title":
+"Service Management - jira.arcadiasolutions.com",
+"link":
+"https://jira.arcadiasolutions.com/servicedesk/customer/portals",
+"snippet":
+"Single Sign On. Keep me logged in. Forgot your password? Powered by Jira Service Management. Powered by Ultimate Customizer.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/jira.arcadiasolutions.com.ico"
+},
+{
+"position":
+40,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://globalcontrol5.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/globalcontrol5.atlassian.net.ico"
+},
+{
+"position":
+41,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://newmgtservices.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/newmgtservices.atlassian.net.ico"
+},
+{
+"position":
+42,
+"title":
+"Jira Service Management - linksystems.atlassian.net",
+"link":
+"https://linksystems.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"4e851b5337a3a0a84c2663132e2cef16dc1fb473_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Welcome to the Help Center ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/linksystems.atlassian.net.ico"
+},
+{
+"position":
+43,
+"title":
+"Service Desk - Iress",
+"link":
+"https://jira.iress.com/servicedesk/customer/portal/43/user/login?destination=portal%2F43",
+"snippet":
+"{"xsrfToken":"BJK8-MT7Q-BSIH-H71F_575fda6f7829f55516da46a57ac7987bb013dbcc_lout","branding":{"id":"43","key":"qs","name":"Api Data & Trading Solutions (ADTS) Customer ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/jira.iress.com.ico"
+},
+{
+"position":
+44,
+"title":
+"Infinys Support - Jira Service Management",
+"link":
+"https://infinys.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"xsrfToken":"e9f7e1b5d7b156546af3993ec5a7fe604d8b0879_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/9c9d45e5-1233-4526-af6e ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/infinys.atlassian.net.ico"
+},
+{
+"position":
+45,
+"title":
+"Login - Jira Service Management",
+"link":
+"https://wvu.atlassian.net/servicedesk/customer/portal/5/article/405832250?src=-449536340",
+"snippet":
+"{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/wvu.atlassian.net.ico"
+},
+{
+"position":
+46,
+"title":
+"Jira Service Management | IT-Servicedesk und ITSM-Software - Atlassian",
+"link":
+"https://www.atlassian.com/de/software/jira/service-management/features/service-desk",
+"snippet":
+"Jira Service Desk und Jira Service Management: ein Vergleich. Eigentlich ist ein Vergleich zwischen diesen beiden Lösungen müßig, weil Jira Service Management alle Funktionen von Jira Service Desk und zusätzlich noch umfassendere ITSM-Funktionen beinhaltet. Jira Service Desk ist jetzt Teil von Jira Service Management. Wie ist es dazu gekommen?",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/www.atlassian.com.ico"
+},
+{
+"position":
+47,
+"title":
+"Rocketfarm Support - Jira Service Management",
+"link":
+"https://rocketfarm.atlassian.net/servicedesk/customer/portals",
+"snippet":
+"{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/rocketfarm.atlassian.net.ico"
+},
+{
+"position":
+48,
+"title":
+"Service Management - Cineca",
+"link":
+"https://jira.u-gov.it/jira/servicedesk/customer/portals",
+"snippet":
+"{"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-management?utm_medium=jira-in-product&utm_source=jira_service_desk_portal_footer&utm ...",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/jira.u-gov.it.ico"
+},
+{
+"position":
+49,
+"title":
+"Service Management - Friedrich-Schiller-Universität Jena",
+"link":
+"https://servicedesk.uni-jena.de/servicedesk/customer/portals",
+"snippet":
+"Anmeldung. Eingeloggt bleiben. Passwort vergessen? Für ein Konto registrieren.",
+"favicon":
+"https://external-content.duckduckgo.com/ip3/servicedesk.uni-jena.de.ico"
+}
+],
+"serpapi_pagination":
+{
+"next":
+"https://serpapi.com/search.json?engine=duckduckgo&kl=us-en&q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&start=49"
+}
+}
+{
+    "search_metadata":
+    {
+    "id":
+    "655562581071f44aefd329b9",
+    "status":
+    "Success",
+    "json_endpoint":
+    "https://serpapi.com/searches/24c9b0a30a64b601/655562581071f44aefd329b9.json",
+    "created_at":
+    "2023-11-16 00:29:12 UTC",
+    "processed_at":
+    "2023-11-16 00:29:12 UTC",
+    "duckduckgo_url":
+    "https://duckduckgo.com/?q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&kl=us-en",
+    "raw_html_file":
+    "https://serpapi.com/searches/24c9b0a30a64b601/655562581071f44aefd329b9.html",
+    "prettify_html_file":
+    "https://serpapi.com/searches/24c9b0a30a64b601/655562581071f44aefd329b9.prettify",
+    "total_time_taken":
+    1.57
+    },
+    "search_parameters":
+    {
+    "engine":
+    "duckduckgo",
+    "q":
+    "inurl:"servicedesk/customer/portals"",
+    "kl":
+    "us-en",
+    "start":
+    100
+    },
+    "search_information":
+    {
+    "organic_results_state":
+    "Results for exact spelling"
+    },
+    "organic_results":
+    [
+    {
+    "position":
+    1,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://itelbposolutions.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/itelbposolutions.atlassian.net.ico"
+    },
+    {
+    "position":
+    2,
+    "title":
+    "Solved: Is it possible to change URL for customers on jira...",
+    "link":
+    "https://community.atlassian.com/t5/Jira-Service-Management/Is-it-possible-to-change-URL-for-customers-on-jira-service-desk/qaq-p/941848",
+    "snippet":
+    "@Jerry Ryan Ishmael we are just migrating across to Jira Service Desk from our old system and found this limitation with the cloud offering. Short of creating redirects for every single page, have you come up with any way to directly link clients to an article using your own URL (instead of just the general URL that will take them to the homepage).",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/community.atlassian.com.ico"
+    },
+    {
+    "position":
+    3,
+    "title":
+    "Service Desk - NH hotels",
+    "link":
+    "https://nhservicedesk.nh-hotels.com/servicedesk/customer/portal/1",
+    "snippet":
+    "{"xsrfToken":"BYB8-INW4-PAH6-03LS_47259f0972071610f678016f5a7d599ffb8348c7_lout","branding":{"id":"1","key":"nhsd","name":"NH Service Desk","portalBaseUrl ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/nhservicedesk.nh-hotels.com.ico"
+    },
+    {
+    "position":
+    4,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://virdee.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/virdee.atlassian.net.ico"
+    },
+    {
+    "position":
+    5,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://solotech.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/solotech.atlassian.net.ico"
+    },
+    {
+    "position":
+    6,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://theschoollocker.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"a6363591dffab77bcf1511002af45e20df3169d8_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/c54c928f-108d-4ea8-8137 ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/theschoollocker.atlassian.net.ico"
+    },
+    {
+    "position":
+    7,
+    "title":
+    "Jira Service Desk | IT 服务台和 ITSM 软件 | Atlassian",
+    "link":
+    "https://www.atlassian.com/zh/software/jira/service-management/features/service-desk",
+    "snippet":
+    "Jira Service Management 聊天 用户可在 Slack 或 Microsoft Teams 中的对话与 Jira Service Management 之间创建双向同步。. 员工无需离开 Slack 即可获得所需的帮助，而支持人员则可以在 Jira Service Management 中获得所需的所有信息。. Jira Service Desk 彻底改变了我们运作 IT 的方式 ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/www.atlassian.com.ico"
+    },
+    {
+    "position":
+    8,
+    "title":
+    "ipipeline.myabsorb.com",
+    "link":
+    "https://ipipeline.myabsorb.com/",
+    "snippet":
+    "We would like to show you a description here but the site won't allow us.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/ipipeline.myabsorb.com.ico"
+    },
+    {
+    "position":
+    9,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://sbrg.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Welcome to SBR support portal! Please login with your e-mail address below and your Okta ID. E-mail address: "OktaID"@softbankrobotics.coma. Okta ID: firstname.lastname. If you cannot login to SBR support portal, please contact to the team. Global IT Service Desk < sbrg-global-it-service-desk@softbankrobotics.com >.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/sbrg.atlassian.net.ico"
+    },
+    {
+    "position":
+    10,
+    "title":
+    "Vodacom Mozambique - Jira Service Management",
+    "link":
+    "https://vodacommozambique.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"3ac60c355912dd70835e4611a2e6f6208a328269_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/d94e1a58-3382-4c6e-ae67 ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/vodacommozambique.atlassian.net.ico"
+    },
+    {
+    "position":
+    11,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://sgl.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/sgl.atlassian.net.ico"
+    },
+    {
+    "position":
+    12,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://travelctm.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/travelctm.atlassian.net.ico"
+    },
+    {
+    "position":
+    13,
+    "title":
+    "Hoffmaster Help Desk - Jira Service Management",
+    "link":
+    "https://hoffmaster.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Hoffmaster Help Desk - Jira Service Management. Hoffmaster Help Desk. Log in.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/hoffmaster.atlassian.net.ico"
+    },
+    {
+    "position":
+    14,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://allvuesystems.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Allvue Systems Support Portal. Already have a Allvue Client Support Portal account? Enter your email and select Next to login below. To register as a new Allvue Client Support Portal user, send an email to support@allvuesystems.com. You will receive an invitation to complete your new Client Support Portal account set up within 24 hours.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/allvuesystems.atlassian.net.ico"
+    },
+    {
+    "position":
+    15,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://westpharma.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/westpharma.atlassian.net.ico"
+    },
+    {
+    "position":
+    16,
+    "title":
+    "How to turn off Jira Service Desk Customer Portal - Atlassian Community",
+    "link":
+    "https://community.atlassian.com/t5/Jira-Service-Management/How-to-turn-off-Jira-Service-Desk-Customer-Portal/qaq-p/1222216",
+    "snippet":
+    "Please follow below steps. 1. Go to Project Settings. 2. Click on Permissions in Sidebar. 3. Click Actions and Click Edit Permissions. 4. Remove Service Desk Customer - Portal Access and Application Access for Browse Projects and Create Issues Permission.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/community.atlassian.com.ico"
+    },
+    {
+    "position":
+    17,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://doverfs.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/doverfs.atlassian.net.ico"
+    },
+    {
+    "position":
+    18,
+    "title":
+    "Jira Service Management - Confluence",
+    "link":
+    "https://ntware.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/ntware.atlassian.net.ico"
+    },
+    {
+    "position":
+    19,
+    "title":
+    "Communications Service Desk - Jira Service Management",
+    "link":
+    "https://dpedigital.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"607952bcd4618d1b5f58e4978f0d159493df64a6_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Welcome to the DPE ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/dpedigital.atlassian.net.ico"
+    },
+    {
+    "position":
+    20,
+    "title":
+    "Maxion Knowledge - Jira Service Management",
+    "link":
+    "https://maxion.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"b95421556ffc2f95eba527941ef89817b68bef69_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/dab6191c-55f2-4540-a27f ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/maxion.atlassian.net.ico"
+    },
+    {
+    "position":
+    21,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://tmconnected.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/tmconnected.atlassian.net.ico"
+    },
+    {
+    "position":
+    22,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://svr.atlassian.net/servicedesk/customer/user/login?destination=portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/svr.atlassian.net.ico"
+    },
+    {
+    "position":
+    23,
+    "title":
+    "System Dashboard - CSP JIRA",
+    "link":
+    "https://servicedesk.eng.vmware.com/servicedesk/customer/portals",
+    "snippet":
+    "VMware Service Desk is a portal for customers to access technical support, manage their cases, and find solutions for their issues. Whether you are a U.S. federal agency or a local business, you can get the help you need from VMware experts and resources.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/servicedesk.eng.vmware.com.ico"
+    },
+    {
+    "position":
+    24,
+    "title":
+    "Jira Service Management - spotinc.atlassian.net",
+    "link":
+    "https://spotinc.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Red Tech Support Home - Jira Service Management. Red Tech Support Home.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/spotinc.atlassian.net.ico"
+    },
+    {
+    "position":
+    25,
+    "title":
+    "Log in with SAML single sign-on | Atlassian Support",
+    "link":
+    "https://support.atlassian.com/atlassian-account/docs/log-in-with-saml-single-sign-on/",
+    "snippet":
+    "If your admin enforces SAML single sign-on, you may not be able to log in with a third-party account. Instead, you'll need to log in to your Atlassian account by entering your email address and authenticating through your company's identity provider.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/support.atlassian.com.ico"
+    },
+    {
+    "position":
+    26,
+    "title":
+    "Jira Service Management - quintoandar.atlassian.net",
+    "link":
+    "https://quintoandar.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"f2d3dba344f003b5d17a2ec5961c492c127b7b7d_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Welcome to the Help Center ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/quintoandar.atlassian.net.ico"
+    },
+    {
+    "position":
+    27,
+    "title":
+    "Jira Service Management - activeo-group.atlassian.net",
+    "link":
+    "https://activeo-group.atlassian.net/servicedesk/customer/user/login?destination=portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/activeo-group.atlassian.net.ico"
+    },
+    {
+    "position":
+    28,
+    "title":
+    "RB.Digital - Jira Service Management",
+    "link":
+    "https://rb-digital.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/rb-digital.atlassian.net.ico"
+    },
+    {
+    "position":
+    29,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://pathcare.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/pathcare.atlassian.net.ico"
+    },
+    {
+    "position":
+    30,
+    "title":
+    "Service Desk",
+    "link":
+    "https://servicedesk.microsoft.com/",
+    "snippet":
+    "Can't access your account? Terms of use Privacy & cookies... Privacy & cookies...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/servicedesk.microsoft.com.ico"
+    },
+    {
+    "position":
+    31,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://jazzpk.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/jazzpk.atlassian.net.ico"
+    },
+    {
+    "position":
+    32,
+    "title":
+    "Support - - Home - Rockwell Collins",
+    "link":
+    "https://portal.rockwellcollins.com/support",
+    "snippet":
+    "Email. To contact Collins Aerospace using email, please complete the online form available here. Email response times may vary and can be up to 7 business days. If your request is urgent, please call one of the support numbers listed on this page.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/portal.rockwellcollins.com.ico"
+    },
+    {
+    "position":
+    33,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://revation.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/revation.atlassian.net.ico"
+    },
+    {
+    "position":
+    34,
+    "title":
+    "Solved: Users get redirected to customer portal when tryin...",
+    "link":
+    "https://community.atlassian.com/t5/Jira-Service-Management/Users-get-redirected-to-customer-portal-when-trying-to-access/qaq-p/1266814",
+    "snippet":
+    "Users get redirected to customer portal when trying to access agent view. We have a servicedesk project were users without a license (anonymous access basically) are allowed to view the tickets in the project. This was meant so that certain people that don't require a Jira license, could still see the tickets and ALL of the details.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/community.atlassian.com.ico"
+    },
+    {
+    "position":
+    35,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://mbalinsight.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"fbf3fe4ac3e6935c5a5270930489dcf932873cf7_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/e9fa6296-4a74-4110-9301 ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/mbalinsight.atlassian.net.ico"
+    },
+    {
+    "position":
+    36,
+    "title":
+    "ServiceNow Service Management Suite",
+    "link":
+    "http://ey.service-now.com/",
+    "snippet":
+    "We would like to show you a description here but the site won't allow us.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/ey.service-now.com.ico"
+    },
+    {
+    "position":
+    37,
+    "title":
+    "Login - Jira Service Management",
+    "link":
+    "https://xovisag.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/xovisag.atlassian.net.ico"
+    },
+    {
+    "position":
+    38,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://soporte-ti.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Introduce tu correo electrónico para iniciar sesión o registrarte. Dirección de correo electrónico. Siguiente. Con la tecnología de Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/soporte-ti.atlassian.net.ico"
+    },
+    {
+    "position":
+    39,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://efacturacion.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Introduce tu correo electrónico para iniciar sesión o registrarte. Dirección de correo electrónico. Siguiente. Con la tecnología de Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/efacturacion.atlassian.net.ico"
+    },
+    {
+    "position":
+    40,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://carreira.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Centro de Vagas - Jira Service Management. Centro de Vagas. Iniciar sessão.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/carreira.atlassian.net.ico"
+    },
+    {
+    "position":
+    41,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://cloudpay.atlassian.net/servicedesk/customer/user/login?destination=portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/cloudpay.atlassian.net.ico"
+    },
+    {
+    "position":
+    42,
+    "title":
+    "Atlassian Support",
+    "link":
+    "https://support.atlassian.com/contact/",
+    "snippet":
+    "We would like to show you a description here but the site won't allow us.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/support.atlassian.com.ico"
+    },
+    {
+    "position":
+    43,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://agenceduservicecivique.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Centre de support - Jira Service Management. Centre de support. Connexion.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/agenceduservicecivique.atlassian.net.ico"
+    },
+    {
+    "position":
+    44,
+    "title":
+    "DELL Product Compliance - Jira Service Management",
+    "link":
+    "https://dellproductcompliance.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "DELL Product Compliance - Jira Service Management. DELL Product Compliance.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/dellproductcompliance.atlassian.net.ico"
+    },
+    {
+    "position":
+    45,
+    "title":
+    "Jira Service Management - tickets.atlassian.net",
+    "link":
+    "https://tickets.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"079fd7c2ee2fef5a7b68bdf191f28950b53d367e_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/823b6f5c-0125-4d82-9a81 ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/tickets.atlassian.net.ico"
+    },
+    {
+    "position":
+    46,
+    "title":
+    "AASHTOWare BrM Support - Jira Service Management",
+    "link":
+    "https://bridgeware.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "AASHTOWare BrM Support - Jira Service Management. AASHTOWare BrM Support. Log in.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/bridgeware.atlassian.net.ico"
+    },
+    {
+    "position":
+    47,
+    "title":
+    "Jira Service Management",
+    "link":
+    "https://atp-servicedesk.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Introduce tu correo electrónico para iniciar sesión o registrarte. Dirección de correo electrónico. Siguiente. Con la tecnología de Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/atp-servicedesk.atlassian.net.ico"
+    },
+    {
+    "position":
+    48,
+    "title":
+    "Jira Service Management - atlassian-public.atlassian.net",
+    "link":
+    "https://atlassian-public.atlassian.net/servicedesk/customer/portal/12/user/login",
+    "snippet":
+    "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/atlassian-public.atlassian.net.ico"
+    },
+    {
+    "position":
+    49,
+    "title":
+    "Jira Service Management - integra-helpdesk.atlassian.net",
+    "link":
+    "https://integra-helpdesk.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/integra-helpdesk.atlassian.net.ico"
+    },
+    {
+    "position":
+    50,
+    "title":
+    "Jira Service Management - lumiohx.atlassian.net",
+    "link":
+    "https://lumiohx.atlassian.net/servicedesk/customer/portals",
+    "snippet":
+    "{"xsrfToken":"f546cbf485d829d60c1f68718b164748f532275a_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Welcome to the Help Center ...",
+    "favicon":
+    "https://external-content.duckduckgo.com/ip3/lumiohx.atlassian.net.ico"
+    }
+    ],
+    "serpapi_pagination":
+    {
+    "next":
+    "https://serpapi.com/search.json?engine=duckduckgo&kl=us-en&q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&start=50"
+    }
+    }
+    {
+        "search_metadata":
+        {
+        "id":
+        "65556284fe41d0b3400cdb6d",
+        "status":
+        "Success",
+        "json_endpoint":
+        "https://serpapi.com/searches/24c9b0a30a64b601/65556284fe41d0b3400cdb6d.json",
+        "created_at":
+        "2023-11-16 00:29:56 UTC",
+        "processed_at":
+        "2023-11-16 00:29:56 UTC",
+        "duckduckgo_url":
+        "https://duckduckgo.com/?q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&kl=us-en",
+        "raw_html_file":
+        "https://serpapi.com/searches/24c9b0a30a64b601/65556284fe41d0b3400cdb6d.html",
+        "prettify_html_file":
+        "https://serpapi.com/searches/24c9b0a30a64b601/65556284fe41d0b3400cdb6d.prettify",
+        "total_time_taken":
+        2.36
+        },
+        "search_parameters":
+        {
+        "engine":
+        "duckduckgo",
+        "q":
+        "inurl:"servicedesk/customer/portals"",
+        "kl":
+        "us-en"
+        },
+        "search_information":
+        {
+        "organic_results_state":
+        "Results for exact spelling"
+        },
+        "organic_results":
+        [
+        {
+        "position":
+        1,
+        "title":
+        "Service Desk",
+        "link":
+        "https://servicedesk.microsoft.com/",
+        "snippet":
+        "Can't access your account? Terms of use Privacy & cookies... Privacy & cookies...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/servicedesk.microsoft.com.ico",
+        "sitelinks":
+        [
+        {
+        "title":
+        "Services Hub",
+        "link":
+        "https://serviceshub.microsoft.com/home",
+        "snippet":
+        "Gain greater visibility and more control over your support requests by managing them in one central location."
+        },
+        {
+        "title":
+        "Rave",
+        "link":
+        "https://rave.microsoft.com/",
+        "snippet":
+        "Rave - Service Desk"
+        },
+        {
+        "title":
+        "Login",
+        "link":
+        "https://servicedesk.microsoft.com/",
+        "snippet":
+        "Login - Service Desk"
+        }
+        ]
+        },
+        {
+        "position":
+        2,
+        "title":
+        "Jira Service Management",
+        "link":
+        "https://binary.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Introduce tu correo electrónico para iniciar sesión o registrarte. Dirección de correo electrónico. Siguiente. Con la tecnología de Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/binary.atlassian.net.ico"
+        },
+        {
+        "position":
+        3,
+        "title":
+        "System Dashboard - CSP JIRA",
+        "link":
+        "https://servicedesk.eng.vmware.com/servicedesk/customer/portals",
+        "snippet":
+        "VMware Service Desk is a portal for customers to access technical support, manage their cases, and find solutions for their issues. Whether you are a U.S. federal agency or a local business, you can get the help you need from VMware experts and resources.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/servicedesk.eng.vmware.com.ico"
+        },
+        {
+        "position":
+        4,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://streetmanager.atlassian.net/servicedesk/customer/user/login?destination=portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/streetmanager.atlassian.net.ico"
+        },
+        {
+        "position":
+        5,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://ecsiproduct.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/ecsiproduct.atlassian.net.ico"
+        },
+        {
+        "position":
+        6,
+        "title":
+        "Jira Service Management",
+        "link":
+        "https://nebook.atlassian.net/servicedesk/customer/user/login?destination=portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/nebook.atlassian.net.ico"
+        },
+        {
+        "position":
+        7,
+        "title":
+        "Help Center - Jira Service Management - ver.atlassian.net",
+        "link":
+        "https://ver.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/ver.atlassian.net.ico"
+        },
+        {
+        "position":
+        8,
+        "title":
+        "Online Booking - Help Center - Jira Service Management",
+        "link":
+        "https://customersupport.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/customersupport.atlassian.net.ico"
+        },
+        {
+        "position":
+        9,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://doverfs.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/doverfs.atlassian.net.ico"
+        },
+        {
+        "position":
+        10,
+        "title":
+        "Jira Service Management - cg-support.atlassian.net",
+        "link":
+        "https://cg-support.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Caregiver Help Center - Jira Service Management. Caregiver Help Center.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/cg-support.atlassian.net.ico"
+        },
+        {
+        "position":
+        11,
+        "title":
+        "OpenMRS Community - Jira Service Management",
+        "link":
+        "https://openmrs.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "{"xsrfToken":"f45dd3571ffad5efbfea2be8fe7ab9955861dc98_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Need help ...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/openmrs.atlassian.net.ico"
+        },
+        {
+        "position":
+        12,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://revation.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/revation.atlassian.net.ico"
+        },
+        {
+        "position":
+        13,
+        "title":
+        "Jira Service Management - atlassian-public.atlassian.net",
+        "link":
+        "https://atlassian-public.atlassian.net/servicedesk/customer/portal/12/user/login",
+        "snippet":
+        "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/atlassian-public.atlassian.net.ico"
+        },
+        {
+        "position":
+        14,
+        "title":
+        "Navigating to the customer portal redirects users to /servicedesk ...",
+        "link":
+        "https://confluence.atlassian.com/jirakb/navigating-to-the-customer-portal-redirects-users-to-servicedesk-customer-portal-0-993923412.html",
+        "snippet":
+        "Documentation. Usage and admin help. Community. Answers, support, and inspiration. System Status. Cloud services health. Suggestions and bugs. Feature suggestions and bug reports",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/confluence.atlassian.com.ico"
+        },
+        {
+        "position":
+        15,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://fruugo.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/fruugo.atlassian.net.ico"
+        },
+        {
+        "position":
+        16,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://dorelhome.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/dorelhome.atlassian.net.ico"
+        },
+        {
+        "position":
+        17,
+        "title":
+        "Login - Jira Service Management",
+        "link":
+        "https://riinternational.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "IT & HARDWARE REQUESTS. Help Desk Changes - EFFECTIVE IMMEDIATLY. Urgent requests are for items such as phone system outages, internet down, site incidents requiring camera system footage etc. Email - helpdesk@riinternational.com. How to contact the IT Help Desk: You can still create a ticket using KBOX using the links on your desktop just ...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/riinternational.atlassian.net.ico"
+        },
+        {
+        "position":
+        18,
+        "title":
+        "Log in with Atlassian account",
+        "link":
+        "https://id.atlassian.com/login",
+        "snippet":
+        "Log in to Jira, Confluence, and all other Atlassian Cloud products here. Not an Atlassian user? Sign up for free.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/id.atlassian.com.ico"
+        },
+        {
+        "position":
+        19,
+        "title":
+        "Configure custom URL for the Jira Service Management customer portal",
+        "link":
+        "https://confluence.atlassian.com/jirakb/configure-custom-url-for-the-jira-service-desk-customer-portal-847755218.html",
+        "snippet":
+        "Solution Steps for Configuring Alternate URLs. This method uses the Rewrite Valve that was introduced in Tomcat 8.. Tomcat 8 is the application server included in Jira 7.0+ and Jira Service Management 3.0+.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/confluence.atlassian.com.ico"
+        },
+        {
+        "position":
+        20,
+        "title":
+        "Jira Service Management",
+        "link":
+        "https://soundunited.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/soundunited.atlassian.net.ico"
+        },
+        {
+        "position":
+        21,
+        "title":
+        "Jira Service Management - e-courier.atlassian.net",
+        "link":
+        "https://e-courier.atlassian.net/servicedesk/customer/portals",
+        "snippet":
+        "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/e-courier.atlassian.net.ico"
+        },
+        {
+        "position":
+        22,
+        "title":
+        "Solved: Is it possible to change URL for customers on jira...",
+        "link":
+        "https://community.atlassian.com/t5/Jira-Service-Management/Is-it-possible-to-change-URL-for-customers-on-jira-service-desk/qaq-p/941848",
+        "snippet":
+        "@Jerry Ryan Ishmael we are just migrating across to Jira Service Desk from our old system and found this limitation with the cloud offering. Short of creating redirects for every single page, have you come up with any way to directly link clients to an article using your own URL (instead of just the general URL that will take them to the homepage).",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/community.atlassian.com.ico"
+        },
+        {
+        "position":
+        23,
+        "title":
+        "Service Management - europa.eu",
+        "link":
+        "https://servicedesk.ema.europa.eu/jira/servicedesk/customer/user/login?nokerberos&destination=portals",
+        "snippet":
+        "{"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-management?utm_medium=jira-in-product&utm_source=jira_service_desk_portal_footer&utm ...",
+        "favicon":
+        "https://external-content.duckduckgo.com/ip3/servicedesk.ema.europa.eu.ico"
+        }
+        ],
+        "serpapi_pagination":
+        {
+        "next":
+        "https://serpapi.com/search.json?engine=duckduckgo&kl=us-en&q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&start=23"
+        }
+        }
+        {
+            "search_metadata":
+            {
+            "id":
+            "655562ade13508d4c7c6ca83",
+            "status":
+            "Success",
+            "json_endpoint":
+            "https://serpapi.com/searches/24c9b0a30a64b601/655562ade13508d4c7c6ca83.json",
+            "created_at":
+            "2023-11-16 00:30:37 UTC",
+            "processed_at":
+            "2023-11-16 00:30:37 UTC",
+            "duckduckgo_url":
+            "https://duckduckgo.com/?q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&kl=us-en",
+            "raw_html_file":
+            "https://serpapi.com/searches/24c9b0a30a64b601/655562ade13508d4c7c6ca83.html",
+            "prettify_html_file":
+            "https://serpapi.com/searches/24c9b0a30a64b601/655562ade13508d4c7c6ca83.prettify",
+            "total_time_taken":
+            7.52
+            },
+            "search_parameters":
+            {
+            "engine":
+            "duckduckgo",
+            "q":
+            "inurl:"servicedesk/customer/portals"",
+            "kl":
+            "us-en",
+            "start":
+            50
+            },
+            "search_information":
+            {
+            "organic_results_state":
+            "Results for exact spelling"
+            },
+            "organic_results":
+            [
+            {
+            "position":
+            1,
+            "title":
+            "How to Hide the Jira Service Desk from the Main cu...",
+            "link":
+            "https://community.atlassian.com/t5/Jira-Service-Management/How-to-Hide-the-Jira-Service-Desk-from-the-Main-customer-portal/qaq-p/1101475",
+            "snippet":
+            "Hi @Muhammad Bilal ,. on the customer portal, customer will show all projects in which he is able to raise tickets to. If you want to show just particular projects you should limit access to all the others by using customer permission as previously described.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/community.atlassian.com.ico"
+            },
+            {
+            "position":
+            2,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://avrub.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/avrub.atlassian.net.ico"
+            },
+            {
+            "position":
+            3,
+            "title":
+            "Jira Service Management",
+            "link":
+            "https://integrho.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Introduce tu correo electrónico para iniciar sesión o registrarte. Dirección de correo electrónico. Siguiente. Con la tecnología de Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/integrho.atlassian.net.ico"
+            },
+            {
+            "position":
+            4,
+            "title":
+            "Entrar - Jira Service Management",
+            "link":
+            "https://atendimento-totvs.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Insira o e-mail para entrar ou se inscrever. Endereço de e-mail. Próximo. Desenvolvido por Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/atendimento-totvs.atlassian.net.ico"
+            },
+            {
+            "position":
+            5,
+            "title":
+            "Entrar - Jira Service Management",
+            "link":
+            "https://smiles.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Insira o e-mail para entrar ou se inscrever. Endereço de e-mail. Próximo. Desenvolvido por Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/smiles.atlassian.net.ico"
+            },
+            {
+            "position":
+            6,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://corsearch.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/corsearch.atlassian.net.ico"
+            },
+            {
+            "position":
+            7,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://assupol.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/assupol.atlassian.net.ico"
+            },
+            {
+            "position":
+            8,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://connellsgroup.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "{"xsrfToken":"c401d8f45c93502545059d3da04ea64f725afd33_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/9b1a3238-a025-46a8-816c ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/connellsgroup.atlassian.net.ico"
+            },
+            {
+            "position":
+            9,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://fruugo.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/fruugo.atlassian.net.ico"
+            },
+            {
+            "position":
+            10,
+            "title":
+            "Entrar - Jira Service Management",
+            "link":
+            "https://riachuelo.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Insira o e-mail para entrar ou se inscrever. Endereço de e-mail. Próximo. Desenvolvido por Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/riachuelo.atlassian.net.ico"
+            },
+            {
+            "position":
+            11,
+            "title":
+            "Jira Service Management",
+            "link":
+            "https://soundunited.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/soundunited.atlassian.net.ico"
+            },
+            {
+            "position":
+            12,
+            "title":
+            "Log in - Jira - Options IT",
+            "link":
+            "https://jira.options-it.com/login.jsp",
+            "snippet":
+            "Welcome to Jira. U sername. P assword. R emember my login on this computer. Not a member? To request an account, please contact your Jira administrators.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/jira.options-it.com.ico"
+            },
+            {
+            "position":
+            13,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://caressc.atlassian.net/servicedesk/customer/user/login",
+            "snippet":
+            "{"xsrfToken":"c0d51346c2b5e586aed087c3c1c9657797ccb3b6_lout","helpCenterBranding":{"logoUrl":"https://api.media.atlassian.com/file/c1cdf4c0-6cf6-4594-a93e ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/caressc.atlassian.net.ico"
+            },
+            {
+            "position":
+            14,
+            "title":
+            "Projects - Smartkargo-CUSTOMER SERVICEDESK",
+            "link":
+            "https://smartkargo.atlassian.net/jira/projects",
+            "snippet":
+            "Projects - Smartkargo-CUSTOMER SERVICEDESK",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/smartkargo.atlassian.net.ico"
+            },
+            {
+            "position":
+            15,
+            "title":
+            "Jira Service Management",
+            "link":
+            "https://cashcrusaders.atlassian.net/servicedesk/customer/user/signup?destination=portals",
+            "snippet":
+            "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/cashcrusaders.atlassian.net.ico"
+            },
+            {
+            "position":
+            16,
+            "title":
+            "Help Center - Jira Service Management - ver.atlassian.net",
+            "link":
+            "https://ver.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/ver.atlassian.net.ico"
+            },
+            {
+            "position":
+            17,
+            "title":
+            "Log in - KPMG Global Studio",
+            "link":
+            "https://deliverybackbone.kpmg.com/studio/login.jsp",
+            "snippet":
+            "Welcome to KPMG Global Studio. U sername. P assword. R emember my login on this computer. Not a member? To request an account, please contact your Jira administrators. Can't access your account? Atlassian Jira Project Management Software. Powered by Atlassian.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/deliverybackbone.kpmg.com.ico"
+            },
+            {
+            "position":
+            18,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://groupecat.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/groupecat.atlassian.net.ico"
+            },
+            {
+            "position":
+            19,
+            "title":
+            "Jira Service Management - e-courier.atlassian.net",
+            "link":
+            "https://e-courier.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/e-courier.atlassian.net.ico"
+            },
+            {
+            "position":
+            20,
+            "title":
+            "Jira Service Management",
+            "link":
+            "https://neoservicedesk.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/neoservicedesk.atlassian.net.ico"
+            },
+            {
+            "position":
+            21,
+            "title":
+            "Your work - Smartkargo-CUSTOMER SERVICEDESK",
+            "link":
+            "https://smartkargo.atlassian.net/jira/your-work",
+            "snippet":
+            "Your work - Smartkargo-CUSTOMER SERVICEDESK",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/smartkargo.atlassian.net.ico"
+            },
+            {
+            "position":
+            22,
+            "title":
+            "Entrar - Jira Service Management",
+            "link":
+            "https://cvccorp.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Insira o e-mail para entrar ou se inscrever. Endereço de e-mail. Próximo. Desenvolvido por Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/cvccorp.atlassian.net.ico"
+            },
+            {
+            "position":
+            23,
+            "title":
+            "Jira Service Management - njdeptofhealth.atlassian.net",
+            "link":
+            "https://njdeptofhealth.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "{"headless":false,"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=jira-in-product&utm_source=jira_service ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/njdeptofhealth.atlassian.net.ico"
+            },
+            {
+            "position":
+            24,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://syntqsupport.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/syntqsupport.atlassian.net.ico"
+            },
+            {
+            "position":
+            25,
+            "title":
+            "Service Management - United Service Organizations",
+            "link":
+            "https://jira.uso.org/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "{"xsrfToken":"BC7K-GEFD-8T3M-LGIX_4ca99faae2f37117cfd43b8454cdfd5927820e3d_lout","helpCenterBranding":{"headerBGColor":"#002147","headerLinkColor":"#ffffff ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/jira.uso.org.ico"
+            },
+            {
+            "position":
+            26,
+            "title":
+            "How to hide a project from the Customer Portal? - Atlassian Community",
+            "link":
+            "https://community.atlassian.com/t5/New-to-Jira-Service-Management/How-to-hide-a-project-from-the-Customer-Portal/qaq-p/700739",
+            "snippet":
+            "I didn't find a solution from JIRA but you can: - Go to 'customize Portal' and highlight only the project/s that you want to show so customers won't see directly anothers projects. (the have to click in 'show more' to see it) - Also you have to hide the request of the project you want to hide so the customer will be unable to create issues.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/community.atlassian.com.ico"
+            },
+            {
+            "position":
+            27,
+            "title":
+            "Service Desk SEA - Jira Service Management",
+            "link":
+            "https://sea.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Service Desk SEA - Jira Service Management. Service Desk SEA. Fazer login.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/sea.atlassian.net.ico"
+            },
+            {
+            "position":
+            28,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://ecsiproduct.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Next. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/ecsiproduct.atlassian.net.ico"
+            },
+            {
+            "position":
+            29,
+            "title":
+            "Help! - IntouchCX",
+            "link":
+            "https://247intouch.zendesk.com/hc/en-us/articles/360042241571-Help-",
+            "snippet":
+            "This method should only be used if the agent's Team Leader can't be reached via methods above. Hangouts (IT Service Desk 24-7) Email (itservicedesk@24-7intouch.com) Phone call (1-800-586-0851) ITSD Jira Ticket (If they have Jira access) Slack. When troubleshooting on your own doesn't fix the issue, reach out for assistance. Contact your ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/247intouch.zendesk.com.ico"
+            },
+            {
+            "position":
+            30,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://vensure.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/vensure.atlassian.net.ico"
+            },
+            {
+            "position":
+            31,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://29022131.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/29022131.atlassian.net.ico"
+            },
+            {
+            "position":
+            32,
+            "title":
+            "Digital Victoria Help Centre - Jira Service Management",
+            "link":
+            "https://digital-vic.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "{"xsrfToken":"ba604cc71e6516b5b377e8c288df57656d139b95_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Welcome to the Digital ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/digital-vic.atlassian.net.ico"
+            },
+            {
+            "position":
+            33,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://fruugo.atlassian.net/servicedesk/customer/portal/1",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/fruugo.atlassian.net.ico"
+            },
+            {
+            "position":
+            34,
+            "title":
+            "Callaway Brands Help Center - Jira Service Management",
+            "link":
+            "https://callawaybrands.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "{"xsrfToken":"45006356586fa9e13faf1c805156faf1942027ca_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Callaway Brands Corporate ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/callawaybrands.atlassian.net.ico"
+            },
+            {
+            "position":
+            35,
+            "title":
+            "Jira Service Management - cg-support.atlassian.net",
+            "link":
+            "https://cg-support.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Caregiver Help Center - Jira Service Management. Caregiver Help Center.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/cg-support.atlassian.net.ico"
+            },
+            {
+            "position":
+            36,
+            "title":
+            "Jira Service Management",
+            "link":
+            "https://mocssupport.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "{"xsrfToken":"45a2a3f3013264e180d5ac6e3ffffe37ca3bd6e5_lout","helpCenterBranding":{"logoId":"","isLogoAvailable":false,"helpCenterTitle":"Welcome to the Help Center ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/mocssupport.atlassian.net.ico"
+            },
+            {
+            "position":
+            37,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://aveanna.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/aveanna.atlassian.net.ico"
+            },
+            {
+            "position":
+            38,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://questsoftware.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/questsoftware.atlassian.net.ico"
+            },
+            {
+            "position":
+            39,
+            "title":
+            "Technical Support - LinkLive",
+            "link":
+            "https://customersuccess.revation.com/css/technical-support",
+            "snippet":
+            "Technical Support Hierarchy. LinkLive Technical Support works in a tiered environment to ensure all customer engagements are addressed in the timeliest manner available: Tier 1 engages on all Support cases - they are responsible for all service requests, engaging on high-priority incidents and initial troubleshooting for complex engagements.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/customersuccess.revation.com.ico"
+            },
+            {
+            "position":
+            40,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://eapexpert.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Login - Jira Service Management. EAP Expert Service Desk. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/eapexpert.atlassian.net.ico"
+            },
+            {
+            "position":
+            41,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://camsonline.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Enter your email to log in or sign up. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/camsonline.atlassian.net.ico"
+            },
+            {
+            "position":
+            42,
+            "title":
+            "JIRA Service Desk 3.6.2 - Atlassian",
+            "link":
+            "https://docs.atlassian.com/jira-servicedesk/REST/3.6.2/",
+            "snippet":
+            "JIRA Service Desk 3.6.2. This is the reference document for the REST API and resources provided by JIRA Service Desk. The REST APIs are for developers who want to integrate JIRA Service Desk with other applications, and for administrators who want to script configuration interactions with JIRA Service Desk. JIRA Service Desk is built upon the ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/docs.atlassian.com.ico"
+            },
+            {
+            "position":
+            43,
+            "title":
+            "Jira Service Desk | IT Service Desk & ITSM Software - Atlassian",
+            "link":
+            "https://www.atlassian.com/software/jira/service-management/features/service-desk",
+            "snippet":
+            "Jira Service Management chat users can create a two-way sync between conversations in Slack or Microsoft Teams and Jira Service Management. Employees never have to leave Slack to get the help they need, and agents get all the information they need right in Jira Service Management. Jira Service Desk has revolutionized how we do IT.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/www.atlassian.com.ico"
+            },
+            {
+            "position":
+            44,
+            "title":
+            "회사소개",
+            "link":
+            "https://www.raonsecure.com/ko/about/company",
+            "snippet":
+            "라온시큐어. 라온시큐어는 모바일 보안∙인증 분야 선도기업으로 금융, 공공, 국방 등 다양한 분야에서 쌓아온 노하우와 레퍼런스를 바탕으로 고객에게 안전하고 편리한 디지털 환경을 제공하고 있습니다. 국내 PKI 암호화 기술을 선도하며 보안 인증 시장의 ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/www.raonsecure.com.ico"
+            },
+            {
+            "position":
+            45,
+            "title":
+            "Using the help center - Atlassian Documentation",
+            "link":
+            "https://confluence.atlassian.com/servicemanagementserver/using-the-help-center-939926561.html",
+            "snippet":
+            "Customizing the help center . Here's a quick look at the help center layout: Portal cards: View all customer portals at a glance and switch between them quickly. Recent: View the types of requests that you raised recently. Sorting: Sort customer portals by popularity, or the ascending or descending order. The popularity of your portals is based on the number of requests raised.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/confluence.atlassian.com.ico"
+            },
+            {
+            "position":
+            46,
+            "title":
+            "Login - Jira Service Management",
+            "link":
+            "https://owasporg.atlassian.net/servicedesk/customer/user/login?destination=portals",
+            "snippet":
+            "Enter your email to log in or sign up. Email address. Powered by Jira Service Management.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/owasporg.atlassian.net.ico"
+            },
+            {
+            "position":
+            47,
+            "title":
+            "Service Management - Dell",
+            "link":
+            "https://jira.cpg.dell.com/servicedesk/customer/portal/75",
+            "snippet":
+            "{"tourEnabled":false,"wacLink":"https://www.atlassian.com/software/jira/service-management?utm_medium=jira-in-product&utm_source=jira_service_desk_portal_footer&utm ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/jira.cpg.dell.com.ico"
+            },
+            {
+            "position":
+            48,
+            "title":
+            "Login :: SMR Automotive",
+            "link":
+            "https://www.smr-automotive.com/login",
+            "snippet":
+            "Username. Password. Stay signed in for two weeks. Log in. Forgot Password. 202. opportunities. Production Operator Embedded Software Engineer MCU (m/w/d) Technischer Projektleiter (m/w/d) Projekteinkäufer Elektronik Automotive (m/w/d) Assistenz (m/w/d) Embedded Software Engineer SOC (m/w/d) -Automotive Software Integration Test Engineer (m/w/d ...",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/www.smr-automotive.com.ico"
+            },
+            {
+            "position":
+            49,
+            "title":
+            "MIT Press Direct Support - Jira Service Management",
+            "link":
+            "https://mitpress.atlassian.net/servicedesk/customer/portals",
+            "snippet":
+            "MIT Press Direct Support - Jira Service Management. MIT Press Direct Support. Log in.",
+            "favicon":
+            "https://external-content.duckduckgo.com/ip3/mitpress.atlassian.net.ico"
+            }
+            ],
+            "serpapi_pagination":
+            {
+            "next":
+            "https://serpapi.com/search.json?engine=duckduckgo&kl=us-en&q=inurl%3A%22servicedesk%2Fcustomer%2Fportals%22&start=49"
+            }
+            }

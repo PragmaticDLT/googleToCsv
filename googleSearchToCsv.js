@@ -23,7 +23,7 @@ const googleSearch = async (query, startIndex, numResults) => {
         cx: CSE_ID,
         q: query,
         start: startIndex,
-        num: numResults // Ensure this is 19 or less
+        num: numResults // Ensure this is 10 or less
       }
     });
     return response.data.items || [];
@@ -53,7 +53,7 @@ const saveResultsToCsv = async (results) => {
 };
 
 (async () => {
-  const totalResults = 100; // Total results you want
+  const totalResults = 100; // Total results you want. Google Custom Search API only allow 100 first results (10 pages) for each request.
   const batchSize = 10; // Results per request
   let results = [];
   let queryCount = 0; 

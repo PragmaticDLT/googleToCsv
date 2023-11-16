@@ -106,3 +106,5 @@ dist
 # yarn v2
 .yarn/cache
 .y
+
+.DS_Store
