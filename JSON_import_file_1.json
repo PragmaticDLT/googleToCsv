@@ -1,0 +1,73 @@
+{
+    "users": [
+        {
+            "name": "60ad35d906bf0c006a441102"
+        },
+        {
+            "name": "60ad35d906bf0c006a441102"
+        }
+    ],
+    "projects": [
+        {
+            "name": "A Sample Project",
+            "externalName": "AMM",
+            "key": "AMM",
+            "description": "JSON file description",
+            "type": "Company-managed",
+            "template": "Service management",
+            "issues": [
+                {
+                    "priority": "Major",
+                    "description": "Some nice description here\nMaybe _italics_ or *bold*?",
+                    "status": "REVIEW",
+                    "reporter": "60ad35d906bf0c006a441102",
+                    "labels": [
+                        "impossible",
+                        "to",
+                        "test"
+                    ],
+                    "issueType": "Bug",
+                    "resolution": "Resolved",
+                    "created": "2012-08-31T17:59:02.161+0100",
+                    "updated": "2012-08-31T17:59:02.161+0100",
+                    "affectedVersions": [
+                        "1.0"
+                    ],
+                    "summary": "Test import 1",
+                    "assignee": "642833369d6383e32a346d9d",
+                    "fixedVersions": [
+                        "1.0",
+                        "2.0"
+                    ],
+                    "components": [
+                        "Component",
+                        "AnotherComponent"
+                    ]
+                },
+                {
+                    "priority": "Major",
+                    "description": "Test description 2",
+                    "status": "REVIEW",
+                    "reporter": "60ad35d906bf0c006a441102",
+                    "issueType": "Bug",
+                    "resolution": "Resolved",
+                    "created": "2012-08-31T17:59:02.161+0100",
+                    "updated": "2012-08-31T17:59:02.161+0100",
+                    "affectedVersions": [
+                        "1.0"
+                    ],
+                    "summary": "Test import 2",
+                    "assignee": "642833369d6383e32a346d9d",
+                    "fixedVersions": [
+                        "1.0",
+                        "2.0"
+                    ],
+                    "components": [
+                        "Component",
+                        "AnotherComponent"
+                    ]
+                }
+            ]
+        }
+    ]
+}
