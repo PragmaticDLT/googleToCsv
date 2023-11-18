@@ -1,0 +1,842 @@
+summary,role,text
+301 - 1.tsv,CUSTOMER,any ideas why java plugin takes so long to load?
+301 - 1.tsv,AGENT,java 1.4?
+301 - 1.tsv,CUSTOMER,yes
+301 - 1.tsv,AGENT,java 1.5 loads _much_ faster
+301 - 1.tsv,CUSTOMER,noneus: how can i get 1.5 is there a .deb somewhere?
+301 - 1.tsv,AGENT,not yet.
+301 - 1.tsv,CUSTOMER,noneus: is this blackdown or sun?
+301 - 1.tsv,CUSTOMER,did you install just the jre?
+301 - 1.tsv,AGENT,I use IBM's 1.4.2
+301 - 1.tsv,AGENT,"(jdk, because I do globus development)"
+301 - 1.tsv,CUSTOMER,"ah ok then, i'll give it a try, does IBM have a standard jre with plugin?"
+301 - 1.tsv,AGENT,yes
+301 - 1.tsv,CUSTOMER,"thanks, i'll try that, screwed up and tried to upgrade firefox/java on my own now java takes real long time to load"
+301 - 1.tsv,CUSTOMER,"can't seem to find an ibm jre package, would you happen to have a url?"
+301 - 1.tsv,AGENT,https://www6.software.ibm.com/dl/lxdk/lxdk-p
+301 - 1.tsv,AGENT,you have to create a login.
+301 - 1.tsv,CUSTOMER,much appreciated
+301 - 1.tsv,CUSTOMER,1.42 is latest IBM java?
+301 - 1.tsv,AGENT,yes.
+301 - 1.tsv,AGENT,for certain arches
+301 - 1.tsv,CUSTOMER,do you have j2se-common installed in ubuntu as well is ibm's java?
+301 - 1.tsv,AGENT,I do not.
+301 - 1.tsv,CUSTOMER,"ok, got it"
+301 - 1.tsv,CUSTOMER,"i don't know what's up, no matter what java plugin i use, it takes a really long time to load a java applet"
+301 - 1.tsv,CUSTOMER,are you using warty or hoary?  and firefox .9 or 1.0?
+301 - 1.tsv,AGENT,Hoary (kernel from Warty) mixed with Debian Sid+experimental. mozilla-firefox 1.0-2 from Sid.
+301 - 1.tsv,CUSTOMER,"eh, i dare not to go there :)"
+301 - 1.tsv,CUSTOMER,where'd you get that mozilla-firefox from sid? ;)
+301 - 1.tsv,AGENT,it's in Sid's pool
+301 - 1.tsv,CUSTOMER,i can get the .deb on the web?
+301 - 1.tsv,AGENT,"sure, but I'd wait a couple days. It'll probably be in Hoary within days."
+301 - 1.tsv,CUSTOMER,but...Hoary...isn't that unstable?
+301 - 1.tsv,CUSTOMER,how did you hold back and keep Warty kernel?
+301 - 1.tsv,AGENT,"I use apt-pinning to keep the linux-* (well, kernel-related) packages pinned to warty-security"
+301 - 1.tsv,CUSTOMER,"ok so far IBM's java is pretty clean, fast, and seems stable (so far) :D"
+301 - 1.tsv,AGENT,indeed.
+301 - 1.tsv,CUSTOMER,so just wait a day for sed error to be fixed and don't `apt-get upgrade` at this time?
+301 - 1.tsv,AGENT,it is already fixed. The matter of the fixed package migrating to pool is of time.
+301 - 1.tsv,CUSTOMER,"got it, thanks"
+301 - 1.tsv,CUSTOMER,"LOL, CRASH! :D"
+301 - 1.tsv,AGENT,dell laptop?
+301 - 1.tsv,AGENT,lsmod|grep snd_intel8x0m|wc -l
+301 - 1.tsv,CUSTOMER,0 but i did install hsf deb early on then upgraded to hoary
+301 - 1.tsv,CUSTOMER,and yes dell laptop sorry
+301 - 1.tsv,AGENT,look in /proc/interrupts and ensure an irq is being assigned to your sound chipset
+301 - 1.tsv,CUSTOMER,roger
+301 - 1.tsv,CUSTOMER,only thing closely resembling is i8042 would that be it?
+301 - 1.tsv,AGENT,nope
+301 - 1.tsv,CUSTOMER,"ok, thanks! how to fix?"
+301 - 1.tsv,AGENT,"and snd_intel8x0 is loaded, correct?"
+301 - 1.tsv,CUSTOMER,yes it is loaded
+301 - 1.tsv,CUSTOMER,could be installing hsf from the get-go cause this?
+301 - 1.tsv,AGENT,I'm not familiar w/ 'hsf'
+301 - 1.tsv,CUSTOMER,hsf linuxant modem drivers
+301 - 1.tsv,AGENT,ah.
+301 - 1.tsv,AGENT,"I'd try and disable anything in bios you're not using, like a printer port (since you're already using the modem)"
+301 - 1.tsv,CUSTOMER,dell bios is usually pretty limited but looking into now thanks
+301 - 1.tsv,CUSTOMER,indeed.  you are the man.  i disabled as much as possible in bios and not soundcard is assigned an irq is it?  wonder why all of a sudden this needed to be done?  maybe because modem driver was properly installed?
+301 - 1.tsv,AGENT,"I've seen the error quite a few times with snd-intel8x0m being loaded, or an irq not being assigned, etc."
+301 - 1.tsv,AGENT,"seems to be a problem with that bios, but I'm not certain."
+301 - 1.tsv,CUSTOMER,this bios has multiple issues actually :)
+301 - 1.tsv,CUSTOMER,can't get apm working with it and ubuntu and acpi support is iffy at this point
+301 - 1.tsv,CUSTOMER,why is ssh only listening on tcp6?
+301 - 1.tsv,AGENT,huh?
+301 - 1.tsv,CUSTOMER,"sorry, netstat -tupan says ssh is listening on 'tcp6' is that ipv6 only?"
+301 - 1.tsv,AGENT,"no, that includes IPv4"
+301 - 1.tsv,CUSTOMER,do you have openssh-server installed? if so can you real quick 'ssh localhost' let me know if it works? if you are running unstable...
+301 - 1.tsv,AGENT,it's fine.
+301 - 1.tsv,AGENT,on the wiki.
+301 - 1.tsv,CUSTOMER,roger that :)
+301 - 1.tsv,AGENT,any more broken than normal? no.
+301 - 1.tsv,CUSTOMER,"can't get my usb mp3 player to fire up with gnomad2, it just hangs, and latest isn't in SID yet, which i need as it's a new player"
+301 - 1.tsv,CUSTOMER,what is the command to make a dep out of a source package?  'make dist' ?
+301 - 1.tsv,CUSTOMER,dep/deb
+301 - 1.tsv,AGENT,"no, it's more complicated than that for some packages."
+301 - 1.tsv,AGENT,for what application are you attempting this?
+301 - 1.tsv,CUSTOMER,libnjb
+301 - 1.tsv,CUSTOMER,there is 'debian' subdir
+301 - 1.tsv,AGENT,which x.org devel package?
+301 - 1.tsv,CUSTOMER,um there is no xorg-devel ?
+301 - 1.tsv,AGENT,what issues?
+301 - 1.tsv,CUSTOMER,"like if two soundcards doesn't select the right one or something, i just remember having sound issues upon initial install of warty"
+301 - 1.tsv,CUSTOMER,"i gave my neighbor a bunch, he knows all the kids in town, and going to hand em out at school :D"
+301 - 1.tsv,CUSTOMER,but i think gave my neighbor too much going to take some back for school
+301 - 1.tsv,CUSTOMER,"i'll fire up laptop and check, one sec"
+301 - 1.tsv,CUSTOMER,"yep, broken, sorry about that"
+301 - 1.tsv,AGENT,what packages did mplayer-586 [for warty]  choke on?
+301 - 1.tsv,CUSTOMER,"libarts0, libfrididi0, libggi2, libungif4g"
+301 - 1.tsv,AGENT,"I'm backporting it from hoary; if you're willing to try the packages, I'll let you know from where to grab them when it finishes."
+301 - 1.tsv,CUSTOMER,"awesome, of course :)"
+301 - 1.tsv,CUSTOMER,attempting the downgrade as mentioned per the wiki
+301 - 1.tsv,AGENT,ping
+301 - 1.tsv,CUSTOMER,the downgrade seemed to work :D
+301 - 1.tsv,AGENT,excellent.
+301 - 1.tsv,CUSTOMER,"there are a few issues with gmplayer of that mplayer, /query ?"
+301 - 1.tsv,AGENT,have you run across any?
+301 - 1.tsv,CUSTOMER,"yes, a few with gmplayer"
+301 - 1.tsv,CUSTOMER,"two, actually"
+301 - 1.tsv,AGENT,spill.
+301 - 1.tsv,CUSTOMER,"(1) when gmplayer starts the rotary (hourglass) hangs for a few seconds like it's waiting for something to initialize and (2) nevermind, and issue in my mplayer.conf :) and (3) might set the default xo=xv so that when 'f' key for fullscreen, image isn't centered in middle of screen but does take up full screen?  the first is the only real issue though.  let me run gmplayer in terminal"
+301 - 1.tsv,CUSTOMER,ok when i start gmplayer in terminal there is no hang
+301 - 1.tsv,CUSTOMER,i don't use gmplayer really but...
+301 - 1.tsv,CUSTOMER,only when i start it from menu
+301 - 1.tsv,AGENT,I will take a look at the menu entry
+301 - 1.tsv,AGENT,don't understand (2) or (3)
+301 - 1.tsv,AGENT,"x11 is a safer default, because xv is broken on some chipsets"
+301 - 1.tsv,CUSTOMER,nevermind on (2) and (3) x11 is safer? nevermind on that one as well :)
+301 - 1.tsv,AGENT,thanks for notifying.
+301 - 1.tsv,AGENT,xv is optimised for the drivers that support it properly
+301 - 1.tsv,CUSTOMER,only probs can find then is when launched from menu entry
+301 - 1.tsv,CUSTOMER,think it's safe to use hoary 2.6.10 kernel in warty?
+301 - 1.tsv,AGENT,"your call, though I advise you to stick with Warty's if you use the binary-only Nvidia or ATI driver."
+301 - 1.tsv,CUSTOMER,"got it, thanks"
+301 - 1.tsv,AGENT,did starting gmplayer from the menu work in a previous mplayer build?
+301 - 1.tsv,CUSTOMER,know how redhat has ntsysv ncurses based app does ubuntu/debian have anything similar for handling init scripts?
+301 - 1.tsv,AGENT,update-rc.d
+301 - 1.tsv,CUSTOMER,fscking update-rc.d fscking giving me fscking headaches
+301 - 1.tsv,AGENT,there must be something awry with your menu entry for gmplayer. Someone else attests that it executes perfectly.
+301 - 1.tsv,CUSTOMER,"you're right, sorry about that, it's probably on my end as i did an downgrade from hoary to wary, thanks, anymore testing i can do let me know, i should have mentioned that beforehand, but it works!"
+301 - 1.tsv,CUSTOMER,how to fix the menu entry?  anything like delete ~/.gconf or?
+301 - 1.tsv,CUSTOMER,know if when hoary ships fbsplash will be enabled and if so will default gnome-terminal background be the fbsplash image file?
+301 - 1.tsv,AGENT,"to be honest, I have no idea; jdub probably has a much clearer idea."
+301 - 1.tsv,CUSTOMER,ok thanks
+301 - 1.tsv,AGENT,"links, w3m, lynx, ..."
+301 - 1.tsv,CUSTOMER,can you dcc me /etc/Muttrc that ships with mutt?
+301 - 1.tsv,CUSTOMER,"hi, i've ran a few apps under 'sudo -s' now things are messed up, is there any way to recover?"
+301 - 1.tsv,AGENT,that depends entirely on what you commands you executed.
+301 - 1.tsv,CUSTOMER,"guarddog, lokkit, firestarter, i think is all"
+301 - 1.tsv,CUSTOMER,now ls -l doesn't respond and gnome panels are messed up and nautilus can't start
+301 - 1.tsv,CUSTOMER,or is there a link to unfsck? i.e. i know it was mentioned in k3b-setup
+301 - 1.tsv,AGENT,what did you do with those applications?
+301 - 1.tsv,AGENT,"(I use a homebrewed iptables script, so I'm afraid I can't necessarily assist.)"
+301 - 1.tsv,CUSTOMER,"i launched them under 'sudo -s' and configured them, or would there be another reason why ls -l /home/lance doesn't respond?"
+301 - 1.tsv,CUSTOMER,or gets hung?
+301 - 1.tsv,AGENT,"usually if that command doesn't respond, you have a serious problem like a kernel oops"
+301 - 1.tsv,AGENT,does it work after a reboot?
+301 - 1.tsv,CUSTOMER,sure doesn't
+301 - 1.tsv,CUSTOMER,"let me try booting another kernel, brb"
+301 - 1.tsv,CUSTOMER,it was stupid firestarter and networked filesystems
+301 - 1.tsv,CUSTOMER,how's array 4 working out?
+301 - 1.tsv,AGENT,"Hoary system itself seems fine, but I can't use the display since the crt is kaput. :)"
+301 - 1.tsv,CUSTOMER,thanks
+301 - 1.tsv,CUSTOMER,"i *really* like the new update manager btw, much more intuitive and simpler than synaptic :)"
+301 - 1.tsv,AGENT,aptitude is another front end to apt.
+301 - 1.tsv,CUSTOMER,"lol i did, why? :P"
+301 - 1.tsv,CUSTOMER,is aptitude safer to use than say apt-get dist-upgrade?
+301 - 1.tsv,AGENT,"'safer?' for me, it's preference."
+301 - 1.tsv,CUSTOMER,ever use openbox?
+301 - 1.tsv,AGENT,"for a long time, openbox2 - then openbox3 - were my preferred wms"
+301 - 1.tsv,CUSTOMER,using metacity now?
+301 - 1.tsv,AGENT,"no, I'm at work, so I'm technically using whatever XP uses."
+301 - 1.tsv,CUSTOMER,on your ubuntu box i meant
+301 - 1.tsv,AGENT,for my main user - yes - although I use a variety of wms for different users
+301 - 1.tsv,CUSTOMER,know how with openssh it will not write ~/.ssh/known_hosts?
+301 - 1.tsv,AGENT,?
+301 - 1.tsv,CUSTOMER,i.e. known_hosts doesn't get written when the server sends it's public key...
+301 - 1.tsv,AGENT,"why would it when the keys are exchanged? that file is only modified when you, as the user, acknowledge affirmatively that you wish to add the host key"
+301 - 1.tsv,CUSTOMER,my problem is i have two computers behind the same domain name so i get a 'man in the middle attack' warning and no connect when switching between the two
+301 - 1.tsv,AGENT,'switching between the two?'
+301 - 1.tsv,CUSTOMER,"ssh to one computer name@domain different port, disconnect, ssh same_name@domain different port, the second time i  get warning and no connect"
+301 - 1.tsv,AGENT,the warning is normal
+301 - 1.tsv,CUSTOMER,"i figured it out, thanks!!!"
+301 - 1.tsv,CUSTOMER,"hi, does ~/.gnome2 contain gconf variables?"
+301 - 1.tsv,CUSTOMER,muine is in universe afaik
+301 - 1.tsv,AGENT,?
+301 - 1.tsv,CUSTOMER,"it's crashing often in hoary after running mp3gain on a large mp3 dir, should i file a bug?"
+301 - 1.tsv,CUSTOMER,i was asking if muine is in universie
+301 - 1.tsv,AGENT,absolutely
+301 - 1.tsv,AGENT,0.8.2-5ubuntu1 is hoary/universe
+301 - 1.tsv,CUSTOMER,do i need to copy anybody or defaults is good?
+301 - 1.tsv,AGENT,defaults are fine.
+301 - 1.tsv,CUSTOMER,opened a bug regarding muine
+301 - 1.tsv,AGENT,#?
+301 - 1.tsv,CUSTOMER,7124
+301 - 1.tsv,CUSTOMER,is it possible muine is having a buffer overflow due to libmuine.so.so not being able to be found?  why it's looking for that i have no clue.
+301 - 1.tsv,AGENT,buffer overflow? highly doubtful.
+301 - 1.tsv,CUSTOMER,"just a wild guess, how can i provide more debugging info?  gdb tells nothing."
+301 - 1.tsv,AGENT,did you set the MONO_DEBUG env var to a nonzero value?
+301 - 1.tsv,CUSTOMER,"only thing i set was MONO_LOG_LEVEL=debug, what do you recommend setting it to? like 3?"
+301 - 1.tsv,CUSTOMER,export MONO_DEBUG=3 should work?
+301 - 1.tsv,CUSTOMER,or 5 or something
+301 - 1.tsv,CUSTOMER,if i go into gconf settings and change monitored folder to something else it pops back working
+301 - 1.tsv,CUSTOMER,last line in debug is Mono-INFO: DllImport loading location: 'libglib-2.0.so.0'. then it segfaults.
+301 - 1.tsv,CUSTOMER,"could be one particular mp3 on my end, i'll try to isolate a bit more"
+301 - 1.tsv,CUSTOMER,isolate *it* lol
+301 - 1.tsv,CUSTOMER,how's it going mate?
+301 - 1.tsv,AGENT,"n'bad, yourself?"
+301 - 1.tsv,CUSTOMER,"not bad, just watched a smoothwall install die on a 1000mb nic card and might be getting some work installing a linux server later on"
+301 - 1.tsv,CUSTOMER,"and *really* impressed with how ubuntu is coming along, minus the crap of a power management my laptop has"
+301 - 1.tsv,CUSTOMER,what should i use as cd burning app if i want to get rid of k3b?
+301 - 1.tsv,AGENT,graveman?
+301 - 1.tsv,CUSTOMER,can graveman do iso's or just rely on nautilus for that?
+301 - 1.tsv,CUSTOMER,is there alsa cvs available in ubuntu?
+301 - 1.tsv,AGENT,cvs? no.
+301 - 1.tsv,AGENT,1.0.8 is available in hoary/universe via the 'alsa-source' package.
+301 - 1.tsv,CUSTOMER,"yes, my card just got 24-bit support but i have to patch against cvs to use it, i can wait i guess, would be nice though :)"
+301 - 1.tsv,CUSTOMER,on my laptop with Hoary if i 'dmesg|grep -i dsdt' it says initrd doesn't have a dsdt patch when on bugzilla it says it does...
+301 - 1.tsv,CUSTOMER,any ideas on the dsdt or just comment on the closed bug?
+301 - 1.tsv,AGENT,"sorry, could you point me to the bug #?"
+301 - 1.tsv,CUSTOMER,https://bugzilla.ubuntu.com/show_bug.cgi?id=3379
+301 - 1.tsv,AGENT,"ok, will look in a bit, busy atm"
+301 - 1.tsv,CUSTOMER,ok thanks
+301 - 1.tsv,AGENT,none. alsa-driver is the name of the source package.
+301 - 1.tsv,AGENT,what specifically are you looking for?
+301 - 1.tsv,CUSTOMER,driver module
+301 - 1.tsv,AGENT,try using the alsa-source and alsa-base debs from experimental
+301 - 1.tsv,AGENT,I'm using them just fine (1.0.8+1.0.9rc2-1)
+301 - 1.tsv,CUSTOMER,how can i get experimental?
+301 - 1.tsv,CUSTOMER,?
+301 - 1.tsv,AGENT,it's fairly complicated (you can't use the debs directly)
+301 - 1.tsv,CUSTOMER,can i make .debs from alsa-driver package?
+301 - 1.tsv,AGENT,"yes, if you tweak."
+301 - 1.tsv,AGENT,"however, the dependencies are fairly twisted.  I don't recommend it."
+301 - 1.tsv,CUSTOMER,ok thanks
+301 - 1.tsv,CUSTOMER,which contains the .ko file?
+301 - 1.tsv,CUSTOMER,in regular hoary
+301 - 1.tsv,AGENT,the alsa-driver deb that you build from alsa-source
+301 - 1.tsv,AGENT,linux-image contains those
+301 - 1.tsv,CUSTOMER,k thnx
+301 - 1.tsv,CUSTOMER,i know it's probably not a good idea but going to stick with alsa-driver stable for now self compiled p16v support in 1.0.9rc2 seem broken
+301 - 1.tsv,AGENT,sure.  How is ca0106 in 1.0.9rc2 broken?
+301 - 1.tsv,AGENT,you have to use a corresponding 1.0.9rc2 libasound2 as well
+301 - 1.tsv,CUSTOMER,no 24bit support for audigy2
+301 - 1.tsv,CUSTOMER,"ah, so i need the libs as well? doh"
+301 - 1.tsv,CUSTOMER,still broken it seems
+301 - 1.tsv,AGENT,what is?
+301 - 1.tsv,AGENT,1.0.9rc2?
+301 - 1.tsv,CUSTOMER,"p16v support for audigy2, eys"
+301 - 1.tsv,CUSTOMER,regular pcm works fine
+301 - 1.tsv,AGENT,and you've confirmed via cvs revisions that this is the case?
+301 - 1.tsv,CUSTOMER,nope. just tried rc2
+301 - 1.tsv,CUSTOMER,"it's not high priority really, i've submitted a big to gnome's bugzilla regarding gstreamer and custom sink to enable p16v but reckon should wait until at least it makes it into stable before following up on bug?"
+301 - 1.tsv,CUSTOMER,p16v support in alsa for audigy2 that is (wait until stable)
+301 - 1.tsv,AGENT,"not sure how gst would really help there, besides being able to specify a virtual device."
+301 - 1.tsv,CUSTOMER,as the custom sink is broken in gst and works in xine?
+301 - 1.tsv,AGENT,"afaik, the fact that p16v support even works in RC1 is a complete fluke, because it appears to be utterly broken"
+301 - 1.tsv,CUSTOMER,"and broken it is in rc2 heh, i'll help jcdutton if i can"
+301 - 1.tsv,CUSTOMER,"hi, how's it going? do you know how to load a custom dsdt in initrd?"
+301 - 1.tsv,CUSTOMER,in hoary...
+301 - 1.tsv,CUSTOMER,why did they remove the ndiswrapper page?
+301 - 1.tsv,AGENT,"they didn't, it's having difficulties. See the topic."
+301 - 1.tsv,AGENT,there's no one package that does.
+301 - 1.tsv,CUSTOMER,i messed it up somehow is there a way to reset?  when i run dhclient it doesn't write the nameservers
+301 - 1.tsv,CUSTOMER,i was helping troubleshoot the wireless network at school and installed pump and other junk
+301 - 1.tsv,CUSTOMER,how to fix my /etc/resolv.conf so that it writes nameservers when using dhclint? :(
+301 - 1.tsv,AGENT,"you're not invoking dhclient manually, are you?"
+301 - 1.tsv,CUSTOMER,yes
+301 - 1.tsv,CUSTOMER,i am invoking dhclient manually
+301 - 1.tsv,AGENT,"err, why?"
+301 - 1.tsv,AGENT,the instance in /etc/network/interfaces doesn't work?
+301 - 1.tsv,CUSTOMER,what is that?
+301 - 1.tsv,AGENT,that's the actual file.
+301 - 1.tsv,CUSTOMER,ok
+301 - 1.tsv,CUSTOMER,hi
+301 - 1.tsv,AGENT,hi
+301 - 1.tsv,CUSTOMER,what to do after 'apt-get install alsa-source' to install 1.0.8 driver?
+301 - 1.tsv,CUSTOMER,"figured it out lol, thanks to linkage"
+301 - 1.tsv,AGENT,weren't you using 1.0.8cvs anyhow?
+301 - 1.tsv,CUSTOMER,um was using emu10k1 (oss) there for a bit then to ubuntu stock now 1.0.8
+301 - 1.tsv,CUSTOMER,i couldn't get it to compile with cvscompile
+301 - 1.tsv,AGENT,hum. I could have sworn you were using ALSA 1.0.8+cvs at one point.
+301 - 1.tsv,CUSTOMER,"think i tried at one point, was using 1.0.9rc1"
+301 - 1.tsv,CUSTOMER,it's a shame actually emu10k1(oss) is a decent driver
+301 - 1.tsv,AGENT,of course it's decent; that's where the ALSA driver has its roots :)
+301 - 1.tsv,CUSTOMER,ah
+301 - 1.tsv,CUSTOMER,why when i save something to the desktop it doesn't show up?
+301 - 1.tsv,AGENT,in gnome?
+301 - 1.tsv,CUSTOMER,"hi, is it normal behaviour that is i save something to the Desktop folder it doesn't show up on the desktop unless i refresh that folder in Nautilus?"
+301 - 1.tsv,AGENT,"I suppose that depends on the backend, which depends whether dnotify or inotify is used"
+301 - 1.tsv,CUSTOMER,which do you use?
+301 - 1.tsv,AGENT,"I use inotify, because I'm using a pre-2.6.12"
+301 - 1.tsv,CUSTOMER,so any previous uses dnotify?
+301 - 1.tsv,AGENT,Hoary's kernel does
+301 - 1.tsv,CUSTOMER,"odd, using gtk's file save dialogue 90% of the time if i save a file to teh Desktop it doesn't show up unless i refresh in Nautilus"
+301 - 1.tsv,AGENT,my hunch is that dnotify+gamin are to blame
+301 - 1.tsv,CUSTOMER,"oh, how to get rid of them?  this is an upgrade from Warty..."
+301 - 1.tsv,AGENT,you don't have any choice currently
+301 - 1.tsv,CUSTOMER,can i go back to fam or is that a bad idea as well?
+301 - 1.tsv,CUSTOMER,is a shame i'll just have to refresh nautilus to see what's on desktop w/out killing nautilus
+301 - 1.tsv,AGENT,bad idea to go back
+301 - 1.tsv,CUSTOMER,"ok then, dangit"
+301 - 1.tsv,CUSTOMER,"should i file a bug, upgrade to breezy, or just wait?"
+301 - 1.tsv,AGENT,"check bugzilla, certainly, but it's a better idea to wait"
+301 - 1.tsv,CUSTOMER,"ok, dangit"
+301 - 1.tsv,CUSTOMER,ping
+301 - 1.tsv,AGENT,pong
+301 - 1.tsv,CUSTOMER,"remember we were talking about setting up two soundcards?  there is person in #creative could use some help with that, if you have a minute."
+301 - 1.tsv,AGENT,with ALSA?
+301 - 1.tsv,CUSTOMER,"right now oss but maybe alsa later, could you join please?"
+301 - 1.tsv,AGENT,"have him ping me when he's dealing with ALSA, thanks"
+301 - 1.tsv,CUSTOMER,"got it, thanks"
+301 - 1.tsv,AGENT,no
+301 - 1.tsv,CUSTOMER,can't install captive with it?
+301 - 1.tsv,AGENT,"sure you can, just install build-essential, gcc-3.4, and linux-headers-$(uname -r)"
+301 - 1.tsv,CUSTOMER,ok thanks
+301 - 1.tsv,CUSTOMER,is captive part of ubuntu or do i need to add a repo or just install a .deb?
+301 - 1.tsv,AGENT,you need to compile it yourself
+301 - 1.tsv,CUSTOMER,thanks
+301 - 1.tsv,CUSTOMER,"i found a repo for captive, should i still install from source?"
+301 - 1.tsv,AGENT,a repo may not be specifically for your Ubuntu install
+301 - 1.tsv,CUSTOMER,ok i'll go with the source!
+60 - 402.tsv,CUSTOMER,is it ok to add a repository that is intrepid to hardy?
+60 - 402.tsv,AGENT,"no, absolutely not"
+60 - 402.tsv,AGENT,"you can use a backport, if there is one, or you can try compiling the *source* package of intrepid"
+60 - 402.tsv,AGENT,what is it?
+60 - 402.tsv,CUSTOMER,zoneminder 1.23.3
+60 - 402.tsv,CUSTOMER,do you have any recommendations
+60 - 402.tsv,AGENT,"well you think wrong, backports is for installing *newer* apps. but anyway, there doesn't seem to be a backport for zoneminder."
+60 - 402.tsv,AGENT,"if you wait a while i'll see if i can compile the intrepid version, then give you instructions to do it."
+60 - 402.tsv,AGENT,leave ./configure alone please.
+60 - 402.tsv,AGENT,"you can install the Intrepid source package without touching ./configure, just have a little patience."
+60 - 402.tsv,AGENT,"ok, i can help you get a proper package compiled, shall i?"
+60 - 402.tsv,CUSTOMER,your good i keep gettin
+60 - 402.tsv,AGENT,"sudo nano /etc/apt/sources.list, and add this line:  deb-src http://se.archive.ubuntu.com/ubuntu/ intrepid main restricted universe multiverse"
+60 - 402.tsv,AGENT,"save, and do 'sudo apt-get update'"
+60 - 402.tsv,AGENT,"yes, that's fine - we'll remove that line later"
+60 - 402.tsv,AGENT,"it's true, but it's a source repository, and we'll only get this one package from it to compile"
+60 - 402.tsv,AGENT,top or bottom is the same
+60 - 402.tsv,AGENT,"that's not a source package, that's just the upstream distribution. i'm talking about a *proper* Ubuntu source package, which will get a binary .deb compiled."
+60 - 402.tsv,CUSTOMER,ok ill follow your lead updating sources.list starting now
+60 - 402.tsv,AGENT,"when you're done, create an empty directory with 'mkdir mypackage', then 'cd mypackage'"
+60 - 402.tsv,AGENT,tell me when you're done
+60 - 402.tsv,AGENT,"now, 'apt-get source zoneminder'"
+60 - 402.tsv,AGENT,"then you'll have to modify a file slightly, because it doesn't compile out of the box. do 'cd zoneminder-1.23.3', then 'nano src/zm_mpeg.cpp'"
+60 - 402.tsv,AGENT,"now go to line 281 (to do that, hit Ctrl+W, then Ctrl+T, then type 281)"
+60 - 402.tsv,AGENT,uh?
+60 - 402.tsv,AGENT,"well, it's the intrepid version"
+60 - 402.tsv,AGENT,no
+60 - 402.tsv,AGENT,"Hardy version is 1.22.3-10, Intrepid version is 1.23.3-3"
+60 - 402.tsv,AGENT,"then you didn't add the intrepid line correctly (and really, there's nothing you need to comment out)"
+60 - 402.tsv,CUSTOMER,im sure you right lemme double check
+60 - 402.tsv,AGENT,deb-src http://se.archive.ubuntu.com/ubuntu/ intrepid main restricted universe multiverse
+60 - 402.tsv,AGENT,and sudo apt-get update
+60 - 402.tsv,AGENT,"ok, do you remember the rest of the steps? (you'll have to remove the stuff that was downloaded now, first)"
+60 - 402.tsv,AGENT,"not the *old* directory, you made a *new* one, right?"
+60 - 402.tsv,AGENT,do you see 'url_fclose(ofc->pb);'?
+60 - 402.tsv,AGENT,change it to:   url_fclose(&ofc->pb);
+60 - 402.tsv,AGENT,then save and exit (ctrl+x)
+60 - 402.tsv,AGENT,"yes, that doesn't matter. just change 281"
+60 - 402.tsv,AGENT,"yes, that's right"
+60 - 402.tsv,AGENT,now do 'dpkg-buildpackage -b -uc' (while you're in the directory zoneminder-1.23.3)
+60 - 402.tsv,AGENT,"ah wait, i forgot to make you get the build dependencies"
+60 - 402.tsv,AGENT,first do 'sudo apt-get build-dep zoneminder'
+60 - 402.tsv,AGENT,then 'dpkg-build-package -b -uc'
+60 - 402.tsv,AGENT,"yes, that's correct"
+60 - 402.tsv,CUSTOMER,do you have a hardy build
+60 - 402.tsv,AGENT,we don't want actual binary packages to be downloaded from intrepid repositories
+60 - 402.tsv,CUSTOMER,ok
+60 - 402.tsv,AGENT,"yes, but you really shouldn't take binary packages from strangers. anyway, we're nearly done"
+60 - 402.tsv,AGENT,"but you would have installed it from the upstream source, which can be a bad idea"
+60 - 402.tsv,AGENT,"that would not have worked, build-dep gets the dependencies to *compile*, not the ones to run the *binary* .deb package"
+60 - 402.tsv,CUSTOMER,thanks for helping i run that one command inside the zoneminder direcotry right
+60 - 402.tsv,AGENT,"yes, 'dpkg-buildpackage -b -uc'. then if you 'cd ..', you should find a .deb package ready to be installed with gdebi or dpkg -i in that directory."
+60 - 402.tsv,AGENT,"for your information, if there hadn't been this little difficulty with line 281, you'd just have done 'apt-get build-dep packagename ; apt-get --build source packagename', and you'd have found yourself with a working .deb immediately"
+60 - 402.tsv,AGENT,we had to complicate that a little because of having to edit the sourcecode
+60 - 402.tsv,CUSTOMER,ya im glad b/c the old version is buggy
+60 - 402.tsv,AGENT,has it finished compiling? i need to go away soon
+60 - 402.tsv,CUSTOMER,it is still compiling this is on a somewhat slower box
+60 - 402.tsv,AGENT,"you can just use gdebi to install it, that will get the dependencies too"
+60 - 402.tsv,AGENT,"uhm i'm sorry but i just have to go now, you may have to edit debian/zoneminder.substvars and change the dependencies..."
+60 - 402.tsv,CUSTOMER,dern
+60 - 166.tsv,CUSTOMER,ok
+60 - 166.tsv,CUSTOMER,o ok
+60 - 166.tsv,CUSTOMER,ok
+60 - 166.tsv,CUSTOMER,i tied using livecd but that doenst work
+60 - 166.tsv,CUSTOMER,so ima re-install it using wubi since i just uninstalled it
+60 - 166.tsv,CUSTOMER,nope
+60 - 166.tsv,CUSTOMER,i made the cd i mean but instead i just get a black screen
+60 - 166.tsv,CUSTOMER,i hear some music like the bongos
+60 - 166.tsv,CUSTOMER,after that im done
+60 - 166.tsv,CUSTOMER,"ok with the live cd u mean the three options demo installition , installtion, and more about ubuntu"
+60 - 166.tsv,AGENT,use the person's nick that your talking to when responding so your message won't get lost in the noise.. just type the first few characters of the nick and hit TAB for easy completion.
+60 - 166.tsv,AGENT,you didn't use tab.. my nick got misspelled :) .. (that's a smiley face)
+60 - 166.tsv,AGENT,yes
+60 - 166.tsv,CUSTOMER,"ok good i put the cd in and i get three otoptins which are demo and full installtion, install inside windows, and learn more"
+60 - 166.tsv,CUSTOMER,which 1 to chose?
+60 - 166.tsv,CUSTOMER,im still on my orignal Os windows ep
+60 - 166.tsv,AGENT,"you've obviously inserted the cd while still in windows.. do you want to keep windows on the computer and also have Ubuntu or would you like to wipe windows off and just have Ubuntu.. or still yet, do you want to just test Ubuntu out while in the windows environment?"
+60 - 166.tsv,CUSTOMER,"im just worried if ubunto doesnt work, then im screwed right?"
+60 - 166.tsv,AGENT,in that case leave the cd in the drive and reboot the computer.. if the boot order goes to cd first then the live cd will boot and you can test the functionality of Ubuntu on your hardware.. being a live cd it won't touch the harddrive until you actually install.. it'll be much slower but functional.
+60 - 166.tsv,AGENT,if there are issues then with the live cd come back here and talk about them.. there might be answers to the issues.. when ready double click the install icon
+60 - 166.tsv,AGENT,ok
+60 - 166.tsv,CUSTOMER,a loading screen with a organge bar going back and forth like a game of ping
+60 - 166.tsv,AGENT,that's good.. it might take a minute or two
+60 - 166.tsv,CUSTOMER,"ok well a peachish background came up, the sound of bongos played, then the screen just went black"
+60 - 166.tsv,AGENT,what kind of video card do you have.?
+60 - 166.tsv,CUSTOMER,before the backgroudn loaded it said something like timedout....
+60 - 166.tsv,AGENT,is this a newer computer?
+60 - 166.tsv,AGENT,on reboot you had a menu that gave you the choice of windows or ubuntu.. did you install ubuntu already with wubi?
+60 - 166.tsv,CUSTOMER,"should i use wubi, get to login screen then go to terminal mode and put some commands in"
+60 - 166.tsv,AGENT,uninstalled what?
+60 - 166.tsv,AGENT,so wubi was first and you uninstalled that .. except now when you boot you still get a menu?
+60 - 166.tsv,CUSTOMER,"wubi i used first, installed that no icons on destop, uninstalled using wubi once again"
+60 - 166.tsv,CUSTOMER,yes i sitll get a menu
+60 - 166.tsv,AGENT,with the black screen displaying can you click ctrl+alt+F3 and get a different black screen with a prompt?
+60 - 166.tsv,CUSTOMER,lemme try
+60 - 166.tsv,AGENT,when you reboot you might try to get into the bios of the machine and look at the boot order.. in fact on a dell you might be able to hit a key on boot to boot directly from the cd.. if there is that option reboot and choose that.. otherwise you'll have to look in the bios to rearrange the boot order of things so the cd is first and the harddrive is second.. then you should be able to boot dir
+60 - 166.tsv,CUSTOMER,ok i will try
+60 - 166.tsv,CUSTOMER,just to be certain whats the rite way to unstinall ubuntu to make sure i did it right?
+60 - 166.tsv,AGENT,from wubi?  I've no idea.. never used wubi
+60 - 166.tsv,AGENT,so you have a black screen with a prompt
+60 - 166.tsv,AGENT,ah good.. yep
+60 - 166.tsv,AGENT,then it will buzz & wurr for a bit and leave you at the standard ubuntu desktop
+60 - 166.tsv,AGENT,is this the live cd or the alternate cd?
+60 - 166.tsv,CUSTOMER,the livecd from which i burend using the iso image
+60 - 166.tsv,AGENT,click install ubuntu.. it won't .. it'll just take you to the live desktop..
+60 - 166.tsv,AGENT,??
+60 - 166.tsv,AGENT,that's a new one on me.. there is a wiki or something on dell's site for linux.. you might investigate there and search for your specific dell to see what issues people are having.. I suspect that there's a piece of hardware that's hanging everything up.. My new motherboard is like that.. took me two days to find an answer.
+60 - 166.tsv,AGENT,np.. sorry I can't be of more help
+60 - 166.tsv,AGENT,well if the live cd doesn't run the chances of it working without knowing what is currently wrong now is slim.. you have to solve that issue first.
+60 - 166.tsv,AGENT,really.. what's the answer?
+60 - 166.tsv,AGENT,so the screen is working?  good .. just keep going and for space tell it to use the entire drive..
+60 - 166.tsv,AGENT,so he stopped you from installing or are you continuing?
+60 - 166.tsv,AGENT,so you're running the live cd? or back to windows? or what?
+60 - 166.tsv,AGENT,cool.. will your dad approve? or be pissed?
+60 - 166.tsv,AGENT,full install takes less space than windows.. and it has all the programs you need typically.. then you can add tons more.
+60 - 166.tsv,AGENT,I take it this is your machine?
+60 - 166.tsv,AGENT,you in college yet?
+60 - 166.tsv,AGENT,you're pretty adventerous.. it's a great time for you to learn linux.. I'll help you a lot in the future..
+60 - 166.tsv,AGENT,It's a good place to be.. I'm just an old dog learning new tricks
+60 - 166.tsv,AGENT,/nick <new name>
+60 - 425.tsv,CUSTOMER,k
+60 - 425.tsv,AGENT,yes
+60 - 425.tsv,CUSTOMER, gnome=terminal
+60 - 425.tsv,CUSTOMER," gnome-terminal, type that"
+60 - 425.tsv,CUSTOMER,you could try ggoing to the homepage
+60 - 425.tsv,CUSTOMER,http://www.skype.com/
+60 - 425.tsv,AGENT,ok i will try
+60 - 425.tsv,CUSTOMER,try apt-cache search skype to see if it's in your cache
+60 - 425.tsv,CUSTOMER,http://ubuntuguide.org/#skype -- this may help
+60 - 425.tsv,CUSTOMER,The debian package at Skype site should be good too
+60 - 425.tsv,CUSTOMER,Thats' what we gdo here
+60 - 425.tsv,CUSTOMER,help each other out :)
+60 - 425.tsv,CUSTOMER,oh ok.. just type Ds and tab
+60 - 425.tsv,CUSTOMER,You see a list of persons that start with Ds in the room
+60 - 425.tsv,AGENT,yoo! thanks you very much!!
+60 - 425.tsv,CUSTOMER,You are welcome
+60 - 425.tsv,AGENT," ok I did, now I am click on 'Skype', and nothing..."
+60 - 425.tsv,CUSTOMER,Good luck with Skype
+60 - 425.tsv,AGENT,I mean the program isn't working...
+60 - 425.tsv,CUSTOMER, you downloading the debinan version?
+60 - 425.tsv,AGENT,yes
+60 - 425.tsv,AGENT,I did all that were writed there
+60 - 425.tsv,CUSTOMER,ok.. and nothing
+60 - 425.tsv,CUSTOMER, http://ubuntuforums.org/showthread.php?p=125550#post125550
+60 - 425.tsv,CUSTOMER, try that
+60 - 425.tsv,AGENT,ok i willtry
+60 - 425.tsv,AGENT,Are just you seeing this maasage or everyone?
+60 - 425.tsv,CUSTOMER,The ubuntu forums is good too. So here's a link. http://ubuntuforums.org/archive/index.php/t-25488.html You may need all the help :)
+60 - 425.tsv,CUSTOMER,I am seeing everyone's messag too :)
+60 - 425.tsv,AGENT,thank you very much. i will try it
+60 - 425.tsv,CUSTOMER,Yup and goodluck
+60 - 425.tsv,CUSTOMER,better :)
+60 - 425.tsv,CUSTOMER,keeping working on it...where are you from?
+60 - 425.tsv,AGENT, Israel ;) i have 70/100 in english lesson :(
+60 - 425.tsv,CUSTOMER,good
+60 - 425.tsv,AGENT,"it's very bad, never mind, I am trying to do what writed in the forum, and it's writeing me 'alien command not found'"
+60 - 425.tsv,CUSTOMER,Which one did you try?
+60 - 425.tsv,AGENT, the first http://ubuntuforums.org/showthread.php?p=125550#post125550
+60 - 425.tsv,AGENT," I also tryed to do this http://ubuntuguide.org/#skype but it's not help.. I am see 'Skype' in menu but when I am click on the program, nothing is happen"
+60 - 425.tsv,CUSTOMER,does use the command with alien...that is not for Debian based distros
+60 - 425.tsv,AGENT,so what to do?
+60 - 425.tsv,AGENT,so what I need to do?
+60 - 425.tsv,CUSTOMER,pm me
+60 - 425.tsv,CUSTOMER,I just walk you through the steps
+60 - 425.tsv,CUSTOMER,your not responding
+60 - 425.tsv,CUSTOMER,I'll just do it here
+60 - 425.tsv,CUSTOMER,you got your terminal up?
+60 - 425.tsv,AGENT," Do u see my pm massages, don't u?"
+60 - 425.tsv,CUSTOMER,sudo apt-get install libqt3c102-mt #-  you going to need thisfile
+60 - 425.tsv,AGENT,how can i copy from this program??
+60 - 425.tsv,CUSTOMER,what  program are you using?
+60 - 425.tsv,CUSTOMER,are you on a linux box
+60 - 425.tsv,AGENT,"OK never mind, I will install it leter"
+60 - 425.tsv,AGENT,"OK never mind, I will install it later"
+60 - 425.tsv,CUSTOMER,ok
+60 - 425.tsv,AGENT,Thank you very much for the help
+60 - 425.tsv,CUSTOMER,sure no prob
+60 - 425.tsv,CUSTOMER, you dont want to tdo tha.....you get spammed like mad
+60 - 425.tsv,AGENT,What did u do?
+60 - 425.tsv,CUSTOMER, They'll spam you know
+60 - 30.tsv,CUSTOMER,hi all
+60 - 30.tsv,CUSTOMER,I'm having difficulties installing 11.04 LTS 32-bit on my desktop
+60 - 30.tsv,CUSTOMER,is there anyone around who can help me?
+60 - 30.tsv,CUSTOMER,"well, I can get it to boot the live-cd"
+60 - 30.tsv,AGENT,What is the issue?
+60 - 30.tsv,AGENT,All on one line please.  and get to the point :)
+60 - 30.tsv,AGENT,I've heard about that before.  Is this machine online when the ubuntu installer is running?  (is this a liveCd or liveUSB?)
+60 - 30.tsv,CUSTOMER,this machine is online
+60 - 30.tsv,AGENT,Can you take a screenshot of the installer in it's frozen state? and paste it on imageshack.us
+60 - 30.tsv,AGENT,ok
+60 - 30.tsv,AGENT,device sr0 is the CD
+60 - 30.tsv,AGENT,Many many i/o errors are very common on liveCDs
+60 - 30.tsv,AGENT,the freeze or the i/o errors?
+60 - 30.tsv,AGENT,I don't remember the installer well enough to follow.  Is it now unfrozen?
+60 - 30.tsv,AGENT,Just finish the install without doing anyting extra
+60 - 30.tsv,AGENT,Does it freeze regardless of the check boxes?
+60 - 30.tsv,CUSTOMER,I'll now find out... I have tried all options except for checking NONE of the boxes
+60 - 30.tsv,AGENT,haha ok :)
+60 - 30.tsv,AGENT,does the rest of the liveCD work?
+60 - 30.tsv,AGENT,I mean right now.  Is the whole thing frozen or just the installer
+60 - 30.tsv,CUSTOMER,I'm booting into live now... see if everything works there...
+60 - 30.tsv,AGENT,k
+60 - 30.tsv,AGENT,"good idea, burn slow (or use liveUSB, I recommend liveUSB if possible)"
+60 - 30.tsv,AGENT,64bit is fine
+60 - 30.tsv,AGENT,there are many ways: https://help.ubuntu.com/community/USB%20Installation%20Media
+60 - 30.tsv,AGENT,https://help.ubuntu.com/community/Installation/FromUSBStick#Creating%20a%20bootable%20Ubuntu%20USB%20flash%20drive
+60 - 30.tsv,AGENT,Great :/
+60 - 30.tsv,AGENT,I suggest just downloading the ISO again (check the md5 sum) and make a liveUSB instead of liveCD. If the problem persists I can suggest some more things
+60 - 30.tsv,AGENT,the installer is picky lately IMO
+60 - 30.tsv,AGENT,yay :)
+60 - 30.tsv,AGENT,give it some time
+60 - 30.tsv,AGENT,":) great, boot that (you made a USB drive right?)"
+60 - 30.tsv,AGENT,yep
+60 - 30.tsv,AGENT,k
+60 - 30.tsv,CUSTOMER,got into the graphical installer again
+60 - 30.tsv,AGENT,k
+60 - 30.tsv,CUSTOMER,still nothing
+60 - 30.tsv,AGENT,frozen ?
+60 - 30.tsv,AGENT,open gparted
+60 - 30.tsv,AGENT,open gparted
+60 - 30.tsv,CUSTOMER,'Failed to run /user/sbin/gparted as user root'
+60 - 30.tsv,AGENT,run it via the gui
+60 - 30.tsv,CUSTOMER,"I did, just double-clicked it..."
+60 - 30.tsv,AGENT,sudo gparted in a term    ?
+60 - 30.tsv,AGENT,the liveCD is a full OS.  What are you talking about?
+60 - 30.tsv,AGENT,choose 'try ubuntu' you can install either way (it's a stupid choice)
+60 - 30.tsv,AGENT,Do any of the partitions have any errors? red !'s or orange triangles or similar?
+60 - 30.tsv,AGENT,I thought so.  Are they NTFS partitions?
+60 - 30.tsv,AGENT,Use windows to check all your partitions.  Something is wrong with them and it is causing hte installer to crash
+60 - 30.tsv,AGENT,yay
+60 - 30.tsv,AGENT,I don't really know the details of fixing it other than making a new partition table (GPT) may delete everything
+60 - 30.tsv,AGENT,:D
+60 - 30.tsv,AGENT,hahah :(
+60 - 30.tsv,AGENT,ict ?
+60 - 30.tsv,AGENT,check the anyway
+60 - 30.tsv,AGENT,:)
+60 - 30.tsv,AGENT,They took fixmbr out?!
+60 - 30.tsv,AGENT,?
+60 - 30.tsv,AGENT,fdisk is still in ubuntu
+60 - 30.tsv,AGENT,gparted is not good at fixing ntfs partitions.  I strongly recommend you use windows to fix it
+60 - 233.tsv,CUSTOMER,"I upgraded from Ubuntu 7.04 to 7.10 last night and now I can't boot up :/. I get the error 'kernel panic-not syncinc:VFS:unable to mount root fs'. Booting to the old kernel makes it to the graphical login, but hangs... I can log in through terminal. the menu.lst has the same root and kernel-'root=' setting for both the new and old kernels. How can I fix this so I can get on my computer again?"
+60 - 233.tsv,CUSTOMER,do you guys think if I upgrade through the terminal login (since I can't get graphical) the problem will go away??
+60 - 233.tsv,AGENT,did you get any errors?
+60 - 233.tsv,AGENT,did you get any errors during the upgrade or experience any problems?
+60 - 233.tsv,CUSTOMER,"what do you mean? Whenever I try to boot up I get 'kernel panic-not syncing:VFS:unable to mount root fs on unkown-block (0,0)' I guess that can be considered an erro etc."
+60 - 233.tsv,CUSTOMER,I don't recall any errors throught the installation. I was sleeping while it updated
+60 - 233.tsv,AGENT,do you have initrd-tools installed on the system?
+60 - 233.tsv,CUSTOMER,I don't believe I do. Not if it'd not bundled with ubuntu I don't
+60 - 233.tsv,AGENT,are you on the machine now?
+60 - 233.tsv,CUSTOMER,"no, I'm on another computer. I've been going back and forth on it all morning haha so it's no deal. Do you need any info for it"
+60 - 233.tsv,AGENT,well on the broken computer try doing a dpkg-reconfigure of the linux-image-`uname -r`
+60 - 233.tsv,AGENT,actually scratch that you don't need to get in to that.
+60 - 233.tsv,AGENT,try to reinstall the kernel and update-grub
+60 - 233.tsv,CUSTOMER,how do I re-install the kernel and update-grub?
+60 - 233.tsv,AGENT,the problem may just be with your /boot/grub/menu.1st file on the system. But with out seeing the file its hard to tell.
+60 - 233.tsv,AGENT,type in update-grub
+60 - 233.tsv,CUSTOMER,I can tell you about my menu.lst
+60 - 233.tsv,AGENT,are you able to paste it?
+60 - 233.tsv,CUSTOMER,"no, but I have information for it."
+60 - 233.tsv,CUSTOMER,menu.lst. has the same root and kernel-'root=' setting for both the new and the old kernel
+60 - 233.tsv,CUSTOMER,what exactly do you need to know about my menu.lst
+60 - 233.tsv,AGENT,does your menu.1st have initrd images listed under each kernel?
+60 - 233.tsv,AGENT,and also what is the version of the kernel you are trying to boot 2.6.????
+60 - 233.tsv,CUSTOMER,is this is? '/boot/vmlinuz-2.6.20-15-generic root=UUID=739367f4-5181-48ad-82c0-e7d028c6cf44 ro quiet splash'
+60 - 233.tsv,CUSTOMER,"I can log in throguh terminal using 2.6.20-15, I can get to graphical login, bot it hangs."
+60 - 233.tsv,AGENT,under that line should be something like initrd /boot/initrc.img-blah
+60 - 233.tsv,AGENT,is that there?
+60 - 233.tsv,AGENT,alright log in to the machine in recovery mode and run update-grub
+60 - 233.tsv,CUSTOMER,sorry I was at the other machine. The old kernel (that I can get up to the graphical lagin to) has this line: 'initrd:  /boot/initrd.img-2.6.22-15 generic'
+60 - 233.tsv,AGENT,okay. does the new one have a similary line just with the updated version numbers of 2.6.whatever
+60 - 233.tsv,CUSTOMER,but the new kernel is missing that particual line. Should I still run the grub-update?
+60 - 233.tsv,AGENT,yes. grub-update will try to recreate your menu.1st automatically is all.
+60 - 233.tsv,AGENT,after grub-update is done check the menu.1st and you will need that initrd line for the new kernel. I'm just hoping it will add it for you.
+60 - 233.tsv,CUSTOMER,"ok. so just run at terminal 'grub-update'. Once that is done, do you need the new kernel initrd or should it work?"
+60 - 233.tsv,AGENT,yes run 'update-grub' at a terminal. Like I explained it should add the initrd line you need. but you can check yourself after it is done.
+60 - 233.tsv,CUSTOMER,"that didn't add the line... do I need to upgrade maybe? I tried using another kernel, I am going to see if that works."
+60 - 233.tsv,AGENT,I would try adding the line myself. Just copy one of the other ones the only thing that needs to change is the version number at the ends 2.6.etc....
+60 - 233.tsv,AGENT,ifyou look at one of the entries that has the line its pretty self explanitory.
+60 - 233.tsv,CUSTOMER,how do I add that like?
+60 - 233.tsv,AGENT,edit the file with nano
+60 - 233.tsv,AGENT,sudo nano /boot/grub/menu.lst
+60 - 233.tsv,CUSTOMER,"thank you, and just add it?"
+60 - 233.tsv,AGENT,after you are done editing save the file by hitting ctrl+w
+60 - 233.tsv,AGENT,yeah just add it like the working kernels have.
+60 - 233.tsv,AGENT,youc an back it up first to by sudo cp /boot/grub/menu.lst /boot/grub/menu.lst~
+60 - 233.tsv,CUSTOMER,"even after adding in the line, it says the file isn't found... Should I download the kernel again or..?"
+60 - 233.tsv,AGENT,what do you mean the file isn't found?
+60 - 233.tsv,CUSTOMER,I guess the kernel didn't download properly. Do I have to re-download it?
+60 - 233.tsv,AGENT,did the error message change?
+60 - 233.tsv,CUSTOMER,"there's no more 'problem syncing' or whatever message, but now it says that the file can't be found. I can still access the other kernel, but it still hangs at graphical login.."
+60 - 233.tsv,AGENT,sudo aptitude install initramfs-tools
+60 - 233.tsv,AGENT,then update-grub again.
+60 - 233.tsv,AGENT,you would have to update your /etc/apt/sources.list and change all references to gutsy then do a dist-upgrade.
+60 - 233.tsv,CUSTOMER,crap really?? so that's even more things to take care of. Daaaamnnn :/
+60 - 233.tsv,AGENT,what do yOU mean?
+60 - 233.tsv,AGENT,Like I said it soundslike you are missing some packages particularly the inittramfs-tools
+60 - 233.tsv,AGENT,sry one t there.
+60 - 233.tsv,CUSTOMER,"well I figured that if I upgraded from 7.10 to 8.04 through the terminal, that might fix the problems :/"
+60 - 233.tsv,CUSTOMER,"I tried getting the initramfs-tools, but it said I gotta disable something... and I don't know exactly what it is"
+60 - 233.tsv,AGENT,well you need initramfs-tools to generate the missing file.
+60 - 44.tsv,CUSTOMER,"Facebook, Hotmail and yahoo mail will NOT load"
+60 - 44.tsv,CUSTOMER,I left the computer on for hours and it would not load facebook at all
+60 - 44.tsv,CUSTOMER,I can no longer check my mail
+60 - 44.tsv,CUSTOMER,No.
+60 - 44.tsv,CUSTOMER,Its not the internet
+60 - 44.tsv,CUSTOMER,its ubuntu
+60 - 44.tsv,CUSTOMER,windows xp works fine
+60 - 44.tsv,CUSTOMER,and vista
+60 - 44.tsv,CUSTOMER,both load everything
+60 - 44.tsv,CUSTOMER,Its has to have something to do with ubuntu being windows xp and vista both load hotmail facebook and yahoo mail
+60 - 44.tsv,AGENT,is ubuntu detecting your network? (wireless?)
+60 - 44.tsv,AGENT,is it not loading just those sites?
+60 - 44.tsv,AGENT,that is unusual
+60 - 44.tsv,AGENT,installed the latest X? as in an update or manually installed from another source?
+60 - 44.tsv,CUSTOMER, The Lastest X made my OS stable without it my computer was crashing into the log in hence logging me out
+60 - 44.tsv,CUSTOMER, Manually installed with multi lines using &&
+60 - 44.tsv,AGENT,i don't know how X would affect the ability to use hotmail etc (it shouldn't make a difference)
+60 - 44.tsv,AGENT,what prblems were you having with X that is on 10.10 default?
+60 - 44.tsv,AGENT,what graphics card do you have?
+60 - 44.tsv,AGENT,"well i'm stumped, if it was a graphics problem it would have pushed you to the cli, but you are able to get so far as to try to open a program then it crashes"
+60 - 44.tsv,CUSTOMER," All I know is without the lastest X I'm screwed but, before I installed it firefox worked on every site"
+60 - 44.tsv,AGENT,have you tried giving ubuntu+1 a go (11.04)
+60 - 44.tsv,AGENT,at least you can tell if your graphics will work in the next release
+60 - 44.tsv,AGENT,"i think so, but i'm trying to ascertain whether the X in 11.04 has been updated so that you don't run into the problem with the new release"
+60 - 44.tsv,AGENT,one sec
+60 - 44.tsv,AGENT,thats the alpha2: http://cdimage.ubuntu.com/releases/natty/alpha-2/
+60 - 44.tsv,AGENT,i came across this: http://ubuntuforums.org/showthread.php?t=1603534
+60 - 44.tsv,AGENT,"i'm not suggesting you switch to it, i just want to make sure the X in 11.04 will work for you"
+60 - 44.tsv,AGENT,you need to copy it with root authority
+60 - 44.tsv,AGENT,hang on
+60 - 44.tsv,AGENT,sudo cp /path/to/file /path/to/copyto
+60 - 44.tsv,AGENT,not sure if i got that command right
+60 - 44.tsv,AGENT,where have you got the xorg.cong file now?
+60 - 44.tsv,AGENT,sudo cp /home/zombie/Desktop/xorg.conf /etc/X11
+60 - 44.tsv,AGENT,open a file manager and look in /etc/X11 is xorg.conf there?
+60 - 44.tsv,AGENT,restart
+60 - 44.tsv,AGENT,"sorry, i just realized that you're running an updated X, that was meant to be done on the default 10.10 X"
+60 - 44.tsv,AGENT,you can delete the xorg.conf and it will return back to normal
+60 - 44.tsv,AGENT,sudo rm /etc/X11/xorg.conf
+60 - 44.tsv,AGENT,then another restart
+60 - 44.tsv,AGENT,"welcome back, sorry about all that"
+60 - 44.tsv,AGENT,do you have anything important on ubuntu?
+60 - 44.tsv,AGENT,i'd recommend that you reinstall ubuntu 10.10 and see if you can get a fix for the Xorg crashes
+60 - 44.tsv,AGENT,"there has to be a reason why X is crashing on 10.10, if you can find out why maybe it can be fixed (seems like we are swapping one problem for another)"
+60 - 44.tsv,AGENT,welcome back
+60 - 44.tsv,AGENT,"seems like it, though still don't know how or why"
+60 - 44.tsv,AGENT,but wine and zsnes crashes?
+60 - 44.tsv,AGENT,i think it was just half an hour
+60 - 44.tsv,AGENT,time flys when you're having fun :)
+60 - 44.tsv,AGENT,what do you use in wine (might be overkill but you could try virtualbox and a windows vm as an alternative)
+60 - 44.tsv,AGENT,not sure what you mean by the updates messing with you?
+60 - 44.tsv,AGENT,sounds rather vague
+60 - 44.tsv,AGENT,"updates have always been rock solid for me, not sure what happened when you manually installed the new X last time but it must have messed something up"
+60 - 44.tsv,AGENT,"i've always been a laptop guy myself, thinkpads have always worked great with ubuntu"
+60 - 44.tsv,AGENT,yup
+60 - 44.tsv,AGENT,did you see what was getting updated?
+60 - 44.tsv,AGENT,hmm
+60 - 44.tsv,AGENT,i must confess i'v never used apt-get from command line (more of a pacman guy myself)
+60 - 44.tsv,AGENT,"i have to admt, i don't do anything when updating (to make sure the updates run smoothly)"
+60 - 44.tsv,AGENT,i don't recommend that
+60 - 286.tsv,CUSTOMER,How do i forward ports for my deluge torrent client ??????????????????
+60 - 286.tsv,AGENT,"that usually depends on your rounter, not your os"
+60 - 286.tsv,CUSTOMER,?
+60 - 286.tsv,CUSTOMER,"in xp, i got proper portforwarding without configuring any. but here it always says 'no incoming connections'"
+60 - 286.tsv,AGENT,"there are ways computers get around router port forwarding, such as upnp, but port forwarding will definitely work in ubuntu"
+60 - 286.tsv,AGENT,"google search for deluge port forwarding, and you'll probably find a good guide"
+60 - 286.tsv,CUSTOMER,ok..
+60 - 286.tsv,AGENT,"don't worry, it's usually pretty easy!"
+60 - 286.tsv,CUSTOMER,i like deluge more than transmission... deluge has good gui :P
+60 - 286.tsv,AGENT,"heh, transmission is my favorite, but I haven't tried deluge yet."
+60 - 286.tsv,CUSTOMER,mm! ok
+60 - 286.tsv,CUSTOMER,do you know a way to check whether port is forwarded or not ??
+60 - 286.tsv,AGENT,sometimes bittorrent clients will let you do that in the preferences... otherwise I saw a connection-checker-torrent on the internet a while back -- you could try searching for that
+60 - 286.tsv,AGENT,"to actually set up port forwarding you need to log into your router, and that's what you'd need a guide for"
+60 - 286.tsv,CUSTOMER,i entered my ip address in firefox. it asked for password and username.. i entered both.. then a page appeared.. but it had no word called 'port forward' :(
+60 - 286.tsv,AGENT,it's labeled differently for many rounters.. I think mine was under security settings or something
+60 - 286.tsv,CUSTOMER,i dont have a static ip.. so it will come ?
+60 - 286.tsv,CUSTOMER,a DSL router i have from nokia siemens
+60 - 286.tsv,AGENT,"sorry, what about a static ip?"
+60 - 286.tsv,CUSTOMER,"but i saw a similar in portforward.com ... but the screenshot there has some options underwhich one can find portforwarding.......... for my, it is not showing that at all.. i have checked all in that page.."
+60 - 286.tsv,AGENT,"hmm, try looking under all the preferences/settings for port forwarding. It should be there somewhere"
+60 - 286.tsv,CUSTOMER,no matter what number i set.. transmission preferences windows shows 'port CLOSED' only ..   transmission cannot open ports by itself :P :P ??
+60 - 286.tsv,AGENT,"yes, that's right. You have to open the port from your router, and then put that port number into transmission"
+60 - 286.tsv,AGENT,you said you have a nokia siemens router?
+60 - 286.tsv,CUSTOMER,True
+60 - 286.tsv,CUSTOMER,but it doesnt match with the one in portforward.com
+60 - 286.tsv,AGENT,could you find the model number on it? Different models will probably have different settings
+60 - 286.tsv,CUSTOMER,is model number = mac number ??
+60 - 286.tsv,AGENT,"no. mac number has to do with your network. your router should have the model number written on it somewhere, like nokia 1600 or something"
+60 - 286.tsv,CUSTOMER,Nokia siemens networks. . .. residential router 1600 ......... rat8hg 12vdc  700 MA .............
+60 - 286.tsv,CUSTOMER,yes yes yes. it is .. residential router 1600
+60 - 286.tsv,AGENT,ok -- can you search for port forwarding for that specific router model?
+60 - 286.tsv,CUSTOMER,ok.
+60 - 286.tsv,CUSTOMER,thankyou for guiding.!
+60 - 286.tsv,AGENT,no problem -- did you get it working?
+60 - 286.tsv,CUSTOMER,no. but i'll .. later  /thanks
+60 - 286.tsv,AGENT,alright. good luck!
+60 - 286.tsv,AGENT,Dr_Willis : the alternate cd _can_ be used to upgrade -- just make sure you download the correct one for your system
+60 - 286.tsv,CUSTOMER,ok.. before giving my frnd alternate 9.10.iso. i should give him all updates till date in 9.04.. right ?
+60 - 286.tsv,CUSTOMER,or is this step not needed ?
+60 - 286.tsv,AGENT,"it's recommened, but I'm not sure if it's actually needed. That's a very good question to ask this channel!"
+60 - 286.tsv,CUSTOMER,"even my update manager has 300+ mb of updates.. but its not updating.... after entering password.. it says 'fix broken first' and in synaptic , it shows no broken packages to fix... now what say ?"
+60 - 286.tsv,AGENT,try checking with the commandline: open terminal and type 'sudo apt-get install -f' without the quotes
+60 - 286.tsv,CUSTOMER,"0 upgraded, 0 newly installed, 0 to remove and 1343 not upgraded."
+60 - 286.tsv,AGENT,did you already start upgrading to 9.10?
+60 - 286.tsv,AGENT,-- you shouldn't have that many packages waiting to be upgraded... I don't know why that happened
+60 - 286.tsv,CUSTOMER,i always install updates daily
+60 - 286.tsv,CUSTOMER,"but now, it says 380 mb to be updated... i enter your command and also entered autoremove command... but still update manager says 'fix broken first' but i have no broken in synaptic"
+60 - 286.tsv,AGENT,could you check something for me? 'less /etc/apt/sources.lst' and see if they say 'jaunty'
+60 - 286.tsv,CUSTOMER,hey. that command told 'no such file or directory'
+60 - 286.tsv,AGENT,sorry! it should be 'less /etc/apt/sources.list'
+60 - 286.tsv,AGENT,this is the file that tells apt-get what upgrades to download
+60 - 286.tsv,CUSTOMER,http://paste.ubuntu.com/305895/ here go
+60 - 286.tsv,AGENT,yeah they say karmic
+60 - 286.tsv,AGENT,which means it thinks it's upgrading already
+60 - 286.tsv,AGENT,try opening the file in nano and changing every instance of 'karmic' back to 'jaunty'
+60 - 286.tsv,AGENT,then run sudo apt-get update
+60 - 286.tsv,CUSTOMER," oh! ok,."
+60 - 286.tsv,AGENT,"sorry, but I have to go. Good luck with everything!"
+60 - 286.tsv,CUSTOMER,thanks.. thats helped me to fix.
+60 - 82.tsv,CUSTOMER,omg
+60 - 82.tsv,CUSTOMER,"why is yum insisting on pulling in adobe reader, when i only need flash"
+60 - 82.tsv,CUSTOMER,>_<
+60 - 82.tsv,AGENT,"this is ubuntu support, not redhat/fedora"
+60 - 82.tsv,AGENT,"ok, please try to keep that noise out of the channel"
+60 - 82.tsv,CUSTOMER,"he won't, even he uses the rpm command instead of yum"
+60 - 82.tsv,AGENT,he won't what ?
+60 - 82.tsv,CUSTOMER,"using an rpm command to remove a previous kernel will clean up the grub automatically, as opposed to yum, which will not. the ubuntu portion of grub will also be preserved"
+60 - 82.tsv,AGENT,fedora will not update ubuntus grub config
+60 - 82.tsv,AGENT,which is what I said
+60 - 82.tsv,AGENT,no - it won't then
+60 - 82.tsv,AGENT,"as ubuntu now uses grub2 which is manged from /etc from within ubuntus install, not /boot any more"
+60 - 82.tsv,AGENT,hence why I'm saying it's not a real headache
+60 - 82.tsv,AGENT,from where ?
+60 - 82.tsv,AGENT,then they are not experimental
+60 - 82.tsv,AGENT,doesn't look like it
+60 - 82.tsv,AGENT,what part of 'stop talking about fedora' am I not making cleaer to you ?
+60 - 82.tsv,AGENT,there are a few bugs logged for it that are being worked on
+60 - 82.tsv,CUSTOMER,ok. this is a pretty big problem
+60 - 82.tsv,AGENT,I'm well aware
+60 - 82.tsv,AGENT,xorg is part of the alternative install
+60 - 82.tsv,CUSTOMER,xorg is not installed by default when you install a command line system
+60 - 82.tsv,AGENT,xorg is installed by default from the alternative cd
+60 - 82.tsv,AGENT,how do you install a command line system from the alternative cD ?
+60 - 82.tsv,CUSTOMER,press f4 at boot prompts
+60 - 82.tsv,AGENT,"super, thank you"
+60 - 82.tsv,AGENT,why does the colour matter ?
+60 - 82.tsv,CUSTOMER,latter models are supposedly more susceptable
+60 - 82.tsv,AGENT,to what ?
+60 - 82.tsv,CUSTOMER,why?
+60 - 82.tsv,AGENT,why what ?
+60 - 82.tsv,CUSTOMER,why do swap partitions lack a uuid
+60 - 82.tsv,AGENT,"I'm not %100 certain why, possibly because there is no file system to create a checksum size on"
+60 - 82.tsv,AGENT,please don't miss-lead people
+60 - 82.tsv,AGENT,STOP
+60 - 82.tsv,CUSTOMER,of course
+60 - 82.tsv,AGENT,"you don't have to re-install and you should not re-install every 6 months, that is not a method of stopping defragging"
+60 - 82.tsv,CUSTOMER,"i reinstall, for clean disk."
+60 - 82.tsv,AGENT,yes 'you' re-install
+60 - 82.tsv,AGENT,why are you asking in #ubuntu ?
+60 - 82.tsv,CUSTOMER,off-topic?
+60 - 82.tsv,AGENT,nonsense
+60 - 82.tsv,AGENT,no it's not
+60 - 82.tsv,AGENT,macs are supported and have been for a long time
+60 - 82.tsv,AGENT,"that's nothing to do with ubuntu, as you no"
+60 - 82.tsv,CUSTOMER,ubuntu is based on debian? ok
+60 - 82.tsv,AGENT,so ? it's nothing to do with ubuntu
+60 - 82.tsv,AGENT,no
+60 - 82.tsv,AGENT,because it's not stable enough
+60 - 82.tsv,AGENT,"do some research on it, it's currently broke, but it's stability changes up and down daily"
+60 - 82.tsv,AGENT,but that is listed on the https://help.ubuntu.com guide which you should have read before installing
+60 - 82.tsv,CUSTOMER,do you use 64-bit ubuntu?
+60 - 82.tsv,AGENT,yes
+60 - 82.tsv,AGENT,just ask the question
+60 - 82.tsv,AGENT,"it's not great, but it's also not the end of the world"
+60 - 82.tsv,CUSTOMER,it happens because the tmp directory is a tmpfs
+60 - 82.tsv,AGENT,"ok, doesn't change what I said though"
+60 - 82.tsv,AGENT,no
+60 - 82.tsv,AGENT,11.04 can be discussed in #ubuntu+1
+60 - 82.tsv,AGENT,no
+60 - 278.tsv,CUSTOMER,anyone know how to fix overlapping partitions?
+60 - 278.tsv,AGENT,sort the spacing/sizing out
+60 - 278.tsv,AGENT,sorting the space out so partiitons don't over lap
+60 - 278.tsv,CUSTOMER,how do you do that without using gparted
+60 - 278.tsv,AGENT,what tool are you using
+60 - 278.tsv,AGENT,you've asked like 100 times - just wait a minute
+60 - 278.tsv,AGENT,there are other people wnating help
+60 - 278.tsv,AGENT,"it doesn't work like that, if you have overlapping partitions your paritions table is screwed"
+60 - 278.tsv,AGENT,deleting the mandrivva parition won't fix that
+60 - 278.tsv,AGENT,if your partition table/data is messed up
+60 - 278.tsv,AGENT,if your partition table is dead - you'll have to rebuild your disk system
+60 - 278.tsv,AGENT,its mounted read only
+60 - 278.tsv,AGENT,"I've told you about 4 times, if your partition tables are overlappying your data is worthless, so you'll have to rebuild"
+60 - 278.tsv,AGENT,"if its mounting it read only and fsck won't fix it, that suggests there is a fatal problem"
+60 - 278.tsv,AGENT,I'm not confused
+60 - 278.tsv,AGENT,your tyring to access your data and copy data around on /media that you've just mouonted a disk on
+60 - 278.tsv,CUSTOMER,is confused
+60 - 278.tsv,AGENT,I assure you I'm not
+60 - 278.tsv,AGENT,I didn't say they where not
+60 - 278.tsv,AGENT,if your partitions are overlapping there is a good probabilyt of file system corruption
+60 - 278.tsv,AGENT,"you /think/ you can access the data, that doesn't mean its all there and ok"
+60 - 278.tsv,AGENT,your encoder / card does hd - not the software
+60 - 278.tsv,AGENT,create a theme
+60 - 278.tsv,AGENT,"create a theme, in that theme define your icon set"
+60 - 278.tsv,AGENT,sure
+60 - 278.tsv,AGENT,create an icon pack
+60 - 278.tsv,AGENT,or edit the current one
+60 - 278.tsv,AGENT,/usr/share/themes (from memory - not certain)
+60 - 278.tsv,AGENT,/usr/share/icons then there is .theme files somewhere
+60 - 278.tsv,AGENT,/usr/share/icons for system wide ones (as I've said 2 times
+60 - 278.tsv,AGENT,the ~/.icons are you personal ones
+60 - 278.tsv,AGENT,"look for the .theme files, there is also a sub forum on ubuntuforums.org for art work which may have guides for you"
+60 - 278.tsv,AGENT,"I'm no icon master, have a glance through the forum and look for the guides I suggested"
+60 - 278.tsv,AGENT,there is a whole artwork (which covers icons) sub forum on ubuntuforums.org
+60 - 278.tsv,AGENT,did you look in the forum ?/
+60 - 278.tsv,AGENT,did you not find any threads on modifying themes ?
+60 - 278.tsv,AGENT,what video card
+60 - 278.tsv,AGENT,are you using the restricted drivers channel
+60 - 278.tsv,AGENT,have you reconfigued it to the correct resolution ?
+60 - 278.tsv,AGENT,sudo dpkg-reconfigure xserver-xorg ?
+60 - 278.tsv,AGENT,what resolution are you trying for
+60 - 278.tsv,CUSTOMER,1440 x 900
+60 - 278.tsv,AGENT,ok - so did you select JUST that resoution when you did the reconfigured
+60 - 278.tsv,AGENT,and what resolution do you get
+60 - 278.tsv,AGENT,apt-get remove gnome-desktop
+60 - 278.tsv,AGENT,I hope you have something else already installed
+60 - 278.tsv,AGENT,use synaptic to remove it all
+60 - 278.tsv,AGENT,"it will remove EVERYTHING as gnome apps depend on gnome, so if you remove gnome - the apps won't work"
+60 - 278.tsv,AGENT,use synaptic and click what you want gone and hit remove all
+60 - 278.tsv,AGENT,"depends on dependencies, but yes as I've said, open synmaptic and remove all gnome apps"
+60 - 278.tsv,AGENT,"yes, but you have to call out the packages"
+60 - 278.tsv,AGENT,no - use synaptic or apt-cache to search for the correct package names
+60 - 278.tsv,AGENT,there will be a LOT
+60 - 278.tsv,AGENT,to remove the package you need to know the correct package name
+60 - 278.tsv,AGENT,"so you'll need to use synaptic to search and select for the packages, or apt-cache to search for the packages then apt-get remove to remove them"
+60 - 278.tsv,AGENT,remove ubuntu-desktop
+60 - 278.tsv,AGENT,or whatever the correct gnome package name is
+60 - 278.tsv,AGENT,thats why I said 'search'
+60 - 278.tsv,AGENT,that won't remove everything due to dependencies
+60 - 278.tsv,AGENT,thats not it

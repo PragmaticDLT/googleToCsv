@@ -4,70 +4,60 @@ const { createObjectCsvWriter } = require('csv-writer');
 
 const inputFile = 'ubuntuDB.csv'; // Replace with your input file path
 const outputFile = 'output.csv';
-const dialogueLimit = 50; // Limit to the number of dialogues to process
+const dialogueLimit = 10; // Limit to the number of dialogues to process
+
+const csvWriter = createObjectCsvWriter({
+    path: outputFile,
+    header: [
+        { id: 'folderDialogueID', title: 'summary' },
+        { id: 'role', title: 'role' },
+        { id: 'text', title: 'text' }
+    ]
+});
 
 let currentDialogueID = null;
 let dialogueCounter = 0;
-let commentCounter = 0;
-let maxComments = 0;
-let currentData = {};
-
-const dataBuffer = [];
-
-function addComment(role, text) {
-  const commentLabel = `${role}${Math.floor((commentCounter + 1) / 2)}`;
-  currentData[commentLabel] = text;
-  commentCounter++;
-}
-
-console.log('Starting processing...');
+let firstSpeaker = null;
+let secondSpeaker = null;
+let records = [];
 
 fs.createReadStream(inputFile)
-  .pipe(csv())
-  .on('data', (row) => {
-    if (dialogueCounter >= dialogueLimit) return;
+    .pipe(csv())
+    .on('data', (row) => {
+        if (dialogueCounter >= dialogueLimit) {
+            return;
+        }
 
-    if (currentDialogueID !== row.dialogueID) {
-      if (currentDialogueID !== null) {
-        maxComments = Math.max(maxComments, commentCounter);
-        dataBuffer.push(currentData); // Push the completed dialogue
-      }
+        if (currentDialogueID !== row.dialogueID) {
+            if (currentDialogueID !== null) {
+                // A new dialogue starts, so increment the counter.
+                dialogueCounter++;
+            }
+            if (dialogueCounter >= dialogueLimit) {
+                return;
+            }
+            currentDialogueID = row.dialogueID;
+            firstSpeaker = row.from;
+            secondSpeaker = null;
+        }
 
-      currentDialogueID = row.dialogueID;
-      currentData = { Summary: row.dialogueID, Description: row.text };
-      commentCounter = 0;
+        if (!secondSpeaker && row.from !== firstSpeaker) {
+            secondSpeaker = row.from;
+        }
 
-      dialogueCounter++;
-    } else {
-      addComment(commentCounter % 2 === 0 ? 'Customer' : 'Agent', row.text);
-    }
-  })
-  .on('end', () => {
-    if (dialogueCounter >= dialogueLimit) {
-      maxComments = Math.max(maxComments, commentCounter); // Check for the last dialogue
-      if (currentData.Summary) {
-        dataBuffer.push(currentData); // Push the last dialogue if not pushed
-      }
-
-      console.log('Processing complete. Writing to file...');
-      const headers = ['Summary', 'Description'];
-      for (let i = 0; i < Math.ceil(maxComments / 2); i++) {
-        headers.push(`Customer${i + 1}`);
-        headers.push(`Agent${i + 1}`);
-      }
-
-      const csvWriter = createObjectCsvWriter({
-        path: outputFile,
-        header: headers.map(h => ({ id: h, title: h }))
-      });
-
-      csvWriter.writeRecords(dataBuffer)
-        .then(() => console.log('CSV file was written successfully'))
-        .catch(err => console.error('Error writing record:', err));
-    }
-  })
-  .on('error', (err) => {
-    console.error('Error during file processing:', err);
-  });
-
-console.log('Script ended.');
+        const folderDialogueID = `${row.folder} - ${row.dialogueID}`;
+        const role = row.from === firstSpeaker ? 'CUSTOMER' : 'AGENT';
+        
+        records.push({
+            folderDialogueID: folderDialogueID,
+            role: role,
+            text: row.text
+        });
+    })
+    .on('end', () => {
+        csvWriter
+            .writeRecords(records)
+            .then(() => console.log('The CSV file was written successfully'))
+            .catch((err) => console.error('Error writing CSV file:', err));
+    })
+    .on('error', (err) => console.error('Error reading input file:', err));
